@@ -1,60 +1,52 @@
 {
   "feed": [
     {
-      "id": "1",
-      "profileImageUrl": "",
-      "bookStoreName": "",
-      "timeStamp": "",
-      "comment": ""
+      "bookId": "1",
+      "profileImage": "assets/images/img_43.png",
+      "timeStamp": "10",
+      "comment": "It way a good book"
     },
     {
-      "id": "2",
-      "profileImageUrl": "",
-      "bookStoreName": "",
-      "timeStamp": "",
-      "comment": ""
+      "bookId": "2",
+      "profileImage": "assets/images/img_44.png",
+      "timeStamp": "15",
+      "comment": "I enjoyed this book so much "
     },
     {
-      "id": "3",
-      "profileImageUrl": "",
-      "bookStoreName": "",
-      "timeStamp": "",
-      "comment": ""
+      "bookId": "3",
+      "profileImage": "assets/images/img_45.png",
+      "timeStamp": "20",
+      "comment": "This is such a thought provoking read. "
     },
     {
-      "id": "4",
-      "profileImageUrl": "",
-      "bookStoreName": "",
-      "timeStamp": "",
-      "comment": ""
+      "bookId": "4",
+      "profileImage": "assets/images/img_46.png",
+      "timeStamp": "25",
+      "comment": "Absolutely Amazing! "
     },
     {
-      "id": "5",
-      "profileImageUrl": "",
-      "bookStoreName": "",
-      "timeStamp": "",
-      "comment": ""
+      "bookId": "5",
+      "profileImage": "assets/images/img_47.png",
+      "timeStamp": "27",
+      "comment": "Really fascinating book. "
     },
     {
-      "id": "6",
-      "profileImageUrl": "",
-      "bookStoreName": "",
-      "timeStamp": "",
-      "comment": ""
+      "bookId": "6",
+      "profileImage": "assets/images/img_48.png",
+      "timeStamp": "30",
+      "comment": "...i like to read topics randomly and came across this great book."
     },
     {
-      "id": "7",
-      "profileImageUrl": "",
-      "bookStoreName": "",
-      "timeStamp": "",
-      "comment": ""
+      "bookId": "7",
+      "profileImage": "assets/images/img_49.png",
+      "timeStamp": "45",
+      "comment": "This book was terrible."
     },
     {
-      "id": "8",
-      "profileImageUrl": "",
-      "bookStoreName": "",
-      "timeStamp": "",
-      "comment": ""
+      "bookId": "8",
+      "profileImage": "assets/images/img_50.png",
+      "timeStamp": "48",
+      "comment": "Absolutely Amazing! "
     }
 
 
