@@ -8,14 +8,14 @@ class BasicScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: buildAppBar(),
+      //appBar: buildAppBar(),
       body: Bodyy(),
     );
   }
 
-  AppBar buildAppBar() {
+  /*AppBar buildAppBar() {
     return AppBar(
       elevation: 0,
     );
-  }
+  }*/
 }
