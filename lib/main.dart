@@ -1,5 +1,5 @@
 
-import 'package:books_store/screens/helloPage.dart';
+
 import 'package:books_store/screens/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'components/body.dart';
