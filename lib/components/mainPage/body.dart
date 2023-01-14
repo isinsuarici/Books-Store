@@ -5,7 +5,7 @@ import 'package:books_store/components/mainPage/title_with_more_button.dart';
 import 'package:books_store/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'all_books.dart';
+import 'mainBooks.dart';
 
 
 class Bodyy extends StatelessWidget {

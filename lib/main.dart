@@ -1,5 +1,6 @@
 
 
+import 'package:books_store/screens/all_books.dart';
 import 'package:books_store/screens/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'components/mainPage/body.dart';
@@ -15,6 +16,7 @@ class StaticApp extends StatelessWidget{
 
       routes: {
         '/basic':(context)=> BasicScreen(),
+        '/allBooks':(context)=> AllBooks(),
       },
       initialRoute: '/',
       home: const OnboardingScreen(), );
