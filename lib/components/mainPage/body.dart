@@ -1,13 +1,12 @@
-import 'package:books_store/components/title_with_more_button.dart';
+import 'package:books_store/components/mainPage/best_sellers.dart';
+import 'package:books_store/components/mainPage/categories.dart';
+import 'package:books_store/components/mainPage/header-with_searchbox.dart';
+import 'package:books_store/components/mainPage/title_with_more_button.dart';
 import 'package:books_store/constants.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-
 import 'all_books.dart';
-import 'best_sellers.dart';
-import 'categories.dart';
-import 'header-with_searchbox.dart';
+
 
 class Bodyy extends StatelessWidget {
 

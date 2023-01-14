@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
+import '../../constants.dart';
 
 class TitleWithMoreButton extends StatelessWidget {
   const TitleWithMoreButton({
@@ -14,7 +14,7 @@ class TitleWithMoreButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding:  EdgeInsets.symmetric(horizontal: kDefaultPadding),
+      padding:  const EdgeInsets.symmetric(horizontal: kDefaultPadding),
       child: Row(
         children: <Widget>[
           TitleWithCustomUnderline(text: title),

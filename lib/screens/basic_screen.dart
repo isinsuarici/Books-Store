@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../components/body.dart';
+import '../components/mainPage/body.dart';
 
 class BasicScreen extends StatelessWidget {
 

@@ -2,7 +2,7 @@
 
 import 'package:books_store/screens/onboarding_screen.dart';
 import 'package:flutter/material.dart';
-import 'components/body.dart';
+import 'components/mainPage/body.dart';
 import 'constants.dart';
 import 'screens/basic_screen.dart';
 
