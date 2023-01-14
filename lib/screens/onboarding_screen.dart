@@ -113,7 +113,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       onPressed: () {
                         if (text == "START") {
                           Navigator.pushNamed(
-                              context,'/hello');
+                              context,'/basic');
 
                         }
                       },
