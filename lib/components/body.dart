@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 
 import 'all_books.dart';
 import 'best_sellers.dart';
+import 'categories.dart';
 import 'header-with_searchbox.dart';
 
 class Bodyy extends StatelessWidget {
@@ -19,14 +20,18 @@ class Bodyy extends StatelessWidget {
           HeaderWithSearchBox(size: size),
           TitleWithMoreButton(title: "Best Sellers",press: (){}),
           BestSellers(),
+          TitleWithMoreButton(title: "Categories", press: (){}),
+          Categories(),
+          SizedBox(height: kDefaultPadding),
           TitleWithMoreButton(title: "All Books", press: (){}),
           AllBooks(),
           SizedBox(height: kDefaultPadding),
+
+
         ],
       ),
     );
   }
 }
-
 
 

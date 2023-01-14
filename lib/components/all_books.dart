@@ -59,7 +59,7 @@ class AllBooksCard extends StatelessWidget {
           top: kDefaultPadding/2,
           bottom: kDefaultPadding/2,
         ),
-        width: size.width*0.8,
+        width: size.width*0.4,
         height: 185,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
