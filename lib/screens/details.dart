@@ -104,25 +104,32 @@ class _DetailsPageState extends State<DetailsPage> {
                     Row(
                       children: [
                         Column(
-                          children: const [
-                            Text("Abstract",
-                                style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 20.0,
-                                    color: Colors.black)),
-                            /*
-                      //buraya özet için kutucuk eklenmeli
-
-                   Container(
-                              height: 250,
-                              child: const Text("An astonishing collection about interconnectedness—between the human and nonhuman, ancestors and ourselves—from National Book Critics Circle Award winner, National Book Award finalist and U.S. Poet Laureate Ada Limón.",
+                          children: [
+                            Container(
+                              padding: const EdgeInsets.only(top: 20,bottom: 8),
+                              child: const Text("Abstract",
                                   style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontSize: 20.0,
-                                      color: Colors.grey)),
+                                      color: Colors.black)),
                             ),
-
-                             */
+                            Container(
+                              padding:const EdgeInsets.only(bottom: 50),
+                              child: ConstrainedBox(
+                                constraints: const BoxConstraints(
+                                  minWidth: 300.0,
+                                  maxWidth: 300.0,
+                                  minHeight: 30.0,
+                                  maxHeight: 800.0,
+                                ),
+                                child: const Text(
+                                    "An astonishing collection about interconnectedness—between the human and nonhuman, ancestors and ourselves—from National Book Critics Circle Award winner, National Book Award finalist and U.S. Poet Laureate Ada Limón.",
+                                    style: TextStyle(
+                                        fontFamily: 'Montserrat',
+                                        fontSize: 20.0,
+                                        color: Colors.grey)),
+                              ),
+                            ),
                           ],
                         )
                       ],
@@ -142,6 +149,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           ],
                         )),
                     const SizedBox(height: 20.0),
+                    /*
                     Padding(
                       padding: const EdgeInsets.only(bottom: 5.0),
                       child: Container(
@@ -161,6 +169,7 @@ class _DetailsPageState extends State<DetailsPage> {
                         ),
                       ),
                     )
+                     */
                   ],
                 ))
           ])
