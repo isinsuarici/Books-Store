@@ -88,7 +88,7 @@ class _DetailsPageState extends State<DetailsPage> {
                             fontFamily: 'Montserrat',
                             fontSize: 22.0,
                             fontWeight: FontWeight.bold)),
-                    SizedBox(height: 20.0),
+                    const SizedBox(height: 20.0),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
@@ -98,71 +98,46 @@ class _DetailsPageState extends State<DetailsPage> {
                                 fontSize: 20.0,
                                 color: Colors.grey)),
                         Container(height: 25.0, color: Colors.grey, width: 1.0),
-                        Container(
-                          width: 125.0,
-                          height: 40.0,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(17.0),
-                              color: Color(0xFF7A9BEE)),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: <Widget>[
-                              InkWell(
-                                onTap: () {},
-                                child: Container(
-                                  height: 25.0,
-                                  width: 25.0,
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(7.0),
-                                      color: Color(0xFF7A9BEE)),
-                                  child: const Center(
-                                    child: Icon(
-                                      Icons.remove,
-                                      color: Colors.white,
-                                      size: 20.0,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              const Text('2',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontFamily: 'Montserrat',
-                                      fontSize: 15.0)),
-                              InkWell(
-                                onTap: () {},
-                                child: Container(
-                                  height: 25.0,
-                                  width: 25.0,
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(7.0),
-                                      color: Colors.white),
-                                  child: const Center(
-                                    child: Icon(
-                                      Icons.add,
-                                      color: Color(0xFF7A9BEE),
-                                      size: 20.0,
-                                    ),
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                        )
                       ],
                     ),
                     const SizedBox(height: 20.0),
+                    Row(
+                      children: [
+                        Column(
+                          children: const [
+                            Text("Abstract",
+                                style: TextStyle(
+                                    fontFamily: 'Montserrat',
+                                    fontSize: 20.0,
+                                    color: Colors.black)),
+                            /*
+                      //buraya özet için kutucuk eklenmeli
+
+                   Container(
+                              height: 250,
+                              child: const Text("An astonishing collection about interconnectedness—between the human and nonhuman, ancestors and ourselves—from National Book Critics Circle Award winner, National Book Award finalist and U.S. Poet Laureate Ada Limón.",
+                                  style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                      fontSize: 20.0,
+                                      color: Colors.grey)),
+                            ),
+
+                             */
+                          ],
+                        )
+                      ],
+                    ),
                     SizedBox(
                         height: 150.0,
                         child: ListView(
                           scrollDirection: Axis.horizontal,
                           children: <Widget>[
                             _buildInfoCard('WEIGHT', '300', 'G'),
-                            SizedBox(width: 10.0),
+                            const SizedBox(width: 10.0),
                             _buildInfoCard('CALORIES', '267', 'CAL'),
-                            SizedBox(width: 10.0),
+                            const SizedBox(width: 10.0),
                             _buildInfoCard('VITAMINS', 'A, B6', 'VIT'),
-                            SizedBox(width: 10.0),
+                            const SizedBox(width: 10.0),
                             _buildInfoCard('AVAIL', 'NO', 'AV')
                           ],
                         )),
