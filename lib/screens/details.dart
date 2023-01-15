@@ -97,16 +97,56 @@ class _DetailsPageState extends State<DetailsPage> {
                                 fontFamily: 'Montserrat',
                                 fontSize: 20.0,
                                 color: Colors.grey)),
-                        Container(height: 25.0, color: Colors.grey, width: 1.0),
                       ],
                     ),
-                    const SizedBox(height: 20.0),
+                    Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Column(
+                            children: [
+                              Row(
+                                children: const [
+                                  Text("Published Year: ",
+                                      style: TextStyle(
+                                          fontFamily: 'Montserrat',
+                                          fontSize: 15,
+                                          color: Colors.black)),
+                                  Text("2015",
+                                      style: TextStyle(
+                                          fontFamily: 'Montserrat',
+                                          fontSize: 15,
+                                          color: Colors.grey)),
+                                ],
+                              ),
+
+                              Row(
+                                children: const [
+                                  Text("Page Number: ",
+                                      style: TextStyle(
+                                          fontFamily: 'Montserrat',
+                                          fontSize: 15,
+                                          color: Colors.black)),
+                                  Text("128",
+                                      style: TextStyle(
+                                          fontFamily: 'Montserrat',
+                                          fontSize: 15,
+                                          color: Colors.grey)),
+                                ],
+                              ),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+
                     Row(
                       children: [
                         Column(
                           children: [
                             Container(
-                              padding: const EdgeInsets.only(top: 20,bottom: 8),
+                              padding:
+                                  const EdgeInsets.only(top: 20, bottom: 8),
                               child: const Text("Abstract",
                                   style: TextStyle(
                                       fontFamily: 'Montserrat',
@@ -114,7 +154,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                       color: Colors.black)),
                             ),
                             Container(
-                              padding:const EdgeInsets.only(bottom: 50),
+                              padding: const EdgeInsets.only(bottom: 50),
                               child: ConstrainedBox(
                                 constraints: const BoxConstraints(
                                   minWidth: 300.0,
