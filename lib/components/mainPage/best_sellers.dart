@@ -15,21 +15,21 @@ class BestSellers extends StatelessWidget {
       child: Row(
         children: <Widget>[
           BestSellerBookCard(
-            image: "assets/images/scifi.png",
+            image: "assets/book_pics/scifi.png",
             title: "Fall to Earth",
             store: "Adımlar Store",
             price: 30,
             press: (){},
           ),
           BestSellerBookCard(
-            image: "assets/images/scifi.png",
+            image: "assets/book_pics/scifi.png",
             title: "Fall to Earth",
             store: "Adımlar Store",
             price: 30,
             press: (){},
           ),
           BestSellerBookCard(
-            image: "assets/images/scifi.png",
+            image: "assets/book_pics/scifi.png",
             title: "Fall to Earth",
             store: "Adımlar Store",
             price: 30,

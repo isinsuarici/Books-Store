@@ -2,7 +2,7 @@
   "bookInfo": [
     {
       "bookId": "1",
-      "bookImage": "assets/images/img.png",
+      "bookImage": "assets/book_pics/img.png",
       "bookName": "The Hurting Kind",
       "bookAuthor": "Ada Limón",
       "bookSummary": "An astonishing collection about interconnectedness—between the human and nonhuman, ancestors and ourselves—from National Book Critics Circle Award winner, National Book Award finalist and U.S. Poet Laureate Ada Limón.",
@@ -24,7 +24,7 @@
     },
     {
       "bookId": "2",
-      "bookImage": "assets/images/img_1.png",
+      "bookImage": "assets/book_pics/img_1.png",
       "bookName": "Balladz",
       "bookAuthor": "Sharon Olds",
       "bookSummary": "\"At the time of have-not, I look at myself in this mirror,\" writes Olds in this self-scouring, exhilarating volume, which opens with a section of quarantine poems, and at its center boasts what she calls Amherst Balladz (whose syntax honors Emily Dickinson: \"she was our Girl - our Woman - / Man enough - for me\") and many more in her own contemporary, long-flowing-sentence rhythm. Olds sings of her childhood, young womanhood, and maturity all mixed up together, seeing an early lover in the one who is about to buried; seeing her whiteness, seeing her privilege; seeing her mother (whom her readers will recognize) \"flushed exalted at Punishment time\"; seeing how we've spoiled the earth but carrying a stray indoor spider carefully back out to the garden.",
@@ -51,7 +51,7 @@
     },
     {
       "bookId": "3",
-      "bookImage": "assets/images/img_2.png",
+      "bookImage": "assets/book_pics/img_2.png",
       "bookName": "Musical Tables",
       "bookAuthor": "Billy Collins",
       "bookSummary": "Now “America’s favorite poet” (The Wall Street Journal) has found a new form for his unique poetic style: the small poem. Here Collins writes about his trademark themes of nature, animals, poetry, mortality, absurdity, and love—all in a handful of lines. Neither haiku nor limerick, the small poem pushes to an extreme poetry’s famed power to condense emotional and conceptual meaning. Inspired by the small poetry of writers as diverse as William Carlos Williams, W.S. Merwin, Kay Ryan, and Charles Simic, and written with Collins’s recognizable wit and wisdom, the poems of Musical Tables show one of our greatest poets channeling his unique voice into a new phase of his exceptional career.",
@@ -78,7 +78,7 @@
     },
     {
       "bookId": "4",
-      "bookImage": "assets/images/img_3.png",
+      "bookImage": "assets/book_pics/img_3.png",
       "bookName": "Lasher",
       "bookAuthor": "Anne Rice",
       "bookSummary": "\"SEDUCTIVE MAGIC...SPELLBINDING...Rice stages her scenes in a wide variety of times and locales, tapping deeply into the richest veins of mythology and history.\"\n—San Francisco Chronicle",
@@ -100,7 +100,7 @@
     },
     {
       "bookId": "5",
-      "bookImage": "assets/images/img_4.png",
+      "bookImage": "assets/book_pics/img_4.png",
       "bookName": "Malice House",
       "bookAuthor": "Megan Shepherd",
       "bookSummary": "From New York Times bestselling author Megan Shepherd comes a complex tale of dark magic, family secrets, and monsters that don’t stay on the page.",
@@ -127,7 +127,7 @@
     },
     {
       "bookId": "6",
-      "bookImage": "assets/images/img_5.png",
+      "bookImage": "assets/book_pics/img_5.png",
       "bookName": "Frankenstein: or The Modern Prometheus",
       "bookAuthor": "Mary Shelley",
       "bookSummary": "About the Series: For over 100 years Oxford World's Classics has made available the broadest spectrum of literature from around the globe. Each affordable volume reflects Oxford's commitment to scholarship, providing the most accurate text plus a wealth of other valuable features, including expert introductions by leading authorities, voluminous notes to clarify the text, up-to-date bibliographies for further study, and much more.",
@@ -149,7 +149,7 @@
     },
     {
       "bookId": "7",
-      "bookImage": "assets/images/img_6.png",
+      "bookImage": "assets/book_pics/img_6.png",
       "bookName": "Book Lovers",
       "bookAuthor": "Emily Henry",
       "bookSummary": "One summer. Two rivals. A plot twist they didn't see coming...\n\nNora Stephens' life is books—she’s read them all—and she is not that type of heroine. Not the plucky one, not the laidback dream girl, and especially not the sweetheart. In fact, the only people Nora is a heroine for are her clients, for whom she lands enormous deals as a cutthroat literary agent, and her beloved little sister Libby.",
@@ -171,7 +171,7 @@
     },
     {
       "bookId": "8",
-      "bookImage": "assets/images/img_7.png",
+      "bookImage": "assets/book_pics/img_7.png",
       "bookName": "A Little Life",
       "bookAuthor": "Hanya Yanagihara",
       "bookSummary": "A deeply profound, moving, and emotional work that closely looks at the intimate ties between families bound by choice rather than blood. A Little Life is an absolutely heartbreaking story that will find itself being shared for years to come.",
@@ -198,7 +198,7 @@
     },
     {
       "bookId": "9",
-      "bookImage": "assets/images/img_8.png",
+      "bookImage": "assets/book_pics/img_8.png",
       "bookName": "The Rom-Com Agenda: A Novel",
       "bookAuthor": "Jayne Denker",
       "bookSummary": "Vibrantly funny, endearingly sweet, and a love letter to all things rom com, Jayne Denker's The Rom Com Agenda is a story of two people finding love right when they least expect it.",
@@ -220,7 +220,7 @@
     },
     {
       "bookId": "10",
-      "bookImage": "assets/images/img_9.png",
+      "bookImage": "assets/book_pics/img_9.png",
       "bookName": "The Marriage Portrait",
       "bookAuthor": "Maggie O'Farrell",
       "bookSummary": "Florence, the 1550s. Lucrezia, third daughter of the grand duke, is comfortable with her obscure place in the palazzo: free to wonder at its treasures, observe its clandestine workings, and devote herself to her own artistic pursuits. But when her older sister dies on the eve of her wedding to the ruler of Ferrara, Modena and Reggio, Lucrezia is thrust unwittingly into the limelight: the duke is quick to request her hand in marriage, and her father just as quick to accept on her behalf.",
@@ -247,7 +247,7 @@
     },
     {
       "bookId": "11",
-      "bookImage": "assets/images/img_10.png",
+      "bookImage": "assets/book_pics/img_10.png",
       "bookName": "Circe",
       "bookAuthor": "Madeline Miller",
       "bookSummary": "In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child — not powerful like her father, nor viciously alluring like her mother. Turning to the world of mortals for companionship, she discovers that she does possess power — the power of witchcraft, which can transform rivals into monsters and menace the gods themselves.",
@@ -274,7 +274,7 @@
     },
     {
       "bookId": "12",
-      "bookImage": "assets/images/img_11.png",
+      "bookImage": "assets/book_pics/img_11.png",
       "bookName": "The Song of Achilles",
       "bookAuthor": "Madeline Miller",
       "bookSummary": "A tale of gods, kings, immortal fame, and the human heart, The Song of Achilles is a dazzling literary feat that brilliantly reimagines Homer's enduring masterwork, The Iliad. An action-packed adventure, an epic love story, a marvelously conceived and executed page-turner, Miller's monumental debut novel has already earned resounding acclaim from some of contemporary fiction's brightest lights—and fans of Mary Renault, Bernard Cornwell, Steven Pressfield, and Colleen McCullough's Masters of Rome series will delight in this unforgettable journey back to ancient Greece in the Age of Heroes.",
@@ -296,7 +296,7 @@
     },
     {
       "bookId": "13",
-      "bookImage": "assets/images/img_12.png",
+      "bookImage": "assets/book_pics/img_12.png",
       "bookName": "The Design of Everyday Things: Revised and Expanded Edition",
       "bookAuthor": "Don Norman",
       "bookSummary": "The Design of Everyday Things shows that good, usable design is possible. The rules are simple: make things visible, exploit natural relationships that couple function and control, and make intelligent use of constraints. The goal: guide the user effortlessly to the right action on the right control at the right time.",
@@ -323,7 +323,7 @@
     },
     {
       "bookId": "14",
-      "bookImage": "assets/images/img_13.png",
+      "bookImage": "assets/book_pics/img_13.png",
       "bookName": "The Inventions, Researches, and Writings of Nikola Tesla",
       "bookAuthor": "Nikola Tesla, Thomas Commerford Martin (Editor)",
       "bookSummary": "Dive into the mind of Nikola Tesla! Written in his own words, this Nikola Tesla book features the lectures, illustrations, and other works that established Tesla as one of history’s great geniuses.\nDuring the early twentieth century, the eccentric and brilliant inventor Nikola Tesla blazed the path that electrical development followed for many years to come. This fascinating illustrated record of Tesla’s pioneering work gathers many of his most famous findings and theories, allowing contemporary readers to experience the amazing range of his thinking. It includes lectures, articles, and discussions—particularly those bearing on polyphase motors and the effects obtained with currents of high potential and high frequency—and gives us a rare glimpse of a genius at work.",
@@ -350,7 +350,7 @@
     },
     {
       "bookId": "15",
-      "bookImage": "assets/images/img_14.png",
+      "bookImage": "assets/book_pics/img_14.png",
       "bookName": "Thunderstruck",
       "bookAuthor": "Erik Larson",
       "bookSummary": "In Thunderstruck, Erik Larson tells the interwoven stories of two men—Hawley Crippen, a very unlikely murderer, and Guglielmo Marconi, the obsessive creator of a seemingly supernatural means of communication—whose lives intersect during one of the greatest criminal chases of all time.",
@@ -372,7 +372,7 @@
     },
     {
       "bookId": "16",
-      "bookImage": "assets/images/img_15.png",
+      "bookImage": "assets/book_pics/img_15.png",
       "bookName": "Starry Messenger: Cosmic Perspectives on Civilization",
       "bookAuthor": "Neil deGrasse Tyson",
       "bookSummary": "Bringing his cosmic perspective to civilization on Earth, Neil deGrasse Tyson shines new light on the crucial fault lines of our time—war, politics, religion, truth, beauty, gender, and race—in a way that stimulates a deeper sense of unity for us all.\n",
@@ -394,7 +394,7 @@
     },
     {
       "bookId": "17",
-      "bookImage": "assets/images/img_16.png",
+      "bookImage": "assets/book_pics/img_16.png",
       "bookName": "Beaverland: How One Weird Rodent Made America",
       "bookAuthor": "Leila Philip",
       "bookSummary": "From award-winning writer Leila Philip, BEAVERLAND is a masterful work of narrative science writing, a book that highlights, though history and contemporary storytelling, how this weird rodent plays an oversized role in American history and its future. She follows fur trappers who lead her through waist high water, fur traders and fur auctioneers, as well as wildlife managers, PETA activists, Native American environmental vigilantes, scientists, engineers, and the colorful group of activists known as beaver believers.",
@@ -416,7 +416,7 @@
     },
     {
       "bookId": "18",
-      "bookImage": "assets/images/img_17.png",
+      "bookImage": "assets/book_pics/img_17.png",
       "bookName": "Different: Gender through the Eyes of a Primatologist",
       "bookAuthor": "Frans de Waal",
       "bookSummary": "In Different, world-renowned primatologist Frans de Waal draws on decades of observation and studies of both human and animal behavior to argue that despite the linkage between gender and biological sex, biology does not automatically support the traditional gender roles in human societies. While humans and other primates do share some behavioral differences, biology offers no justification for existing gender inequalities.",
@@ -438,7 +438,7 @@
     },
     {
       "bookId": "19",
-      "bookImage": "assets/images/img_18.png",
+      "bookImage": "assets/book_pics/img_18.png",
       "bookName": "Menagerie Manor",
       "bookAuthor": "Gerald Durrell",
       "bookSummary": "Spurred by his passion for animals and a lifelong dream, in the spring of 1959 Gerald Durrell opened the Jersey Zoo—now known as the Durrell Wildlife Park—on the grounds of an old manor house. The menagerie provided a safe habitat for rare and endangered species and exposed its human visitors to the wonders of nature.",
@@ -465,7 +465,7 @@
     },
     {
       "bookId": "20",
-      "bookImage": "assets/images/img_19.png",
+      "bookImage": "assets/book_pics/img_19.png",
       "bookName": "All Creatures Great and Small",
       "bookAuthor": "James Herriot",
       "bookSummary": "For over forty years, generations of readers have thrilled to Herriot's marvelous tales, deep love of life, and extraordinary storytelling abilities. For decades, Herriot roamed the remote, beautiful Yorkshire Dales, treating every patient that came his way from smallest to largest, and observing animals and humans alike with his keen, loving eye.",
@@ -487,7 +487,7 @@
     },
     {
       "bookId": "21",
-      "bookImage": "assets/images/img_20.png",
+      "bookImage": "assets/book_pics/img_20.png",
       "bookName": "Fuzz: When Nature Breaks the Law",
       "bookAuthor": "Mary Roach",
       "bookSummary": "What’s to be done about a jaywalking moose? A bear caught breaking and entering? A murderous tree? Three hundred years ago, animals that broke the law would be assigned legal representation and put on trial. These days, as New York Times best-selling author Mary Roach discovers, the answers are best found not in jurisprudence but in science: the curious science of human-wildlife conflict, a discipline at the crossroads of human behavior and wildlife biology.",
@@ -509,7 +509,7 @@
     },
     {
       "bookId": "22",
-      "bookImage": "assets/images/img_21.png",
+      "bookImage": "assets/book_pics/img_21.png",
       "bookName": "Your Dog Is Your Mirror: The Emotional Capacity of Our Dogs and Ourselves",
       "bookAuthor": "Kevin Behan",
       "bookSummary": "In Your Dog Is Your Mirror, dog trainer Kevin Behan proposes a radical new model for understanding canine behavior: a dog’s behavior and emotion, indeed its very cognition, are driven by our emotion. The dog doesn’t respond to what the owner thinks, says, or does; it responds to what the owner feels. And in this way, dogs can actually put people back in touch with their own emotions. Behan demonstrates that dogs and humans are connected more profoundly than has ever been imagined — by heart — and that this approach to dog cognition can help us understand many of dogs’ most inscrutable behaviors. This groundbreaking, provocative book opens the door to a whole new understanding between species, and perhaps a whole new understanding of ourselves.",
@@ -531,7 +531,7 @@
     },
     {
       "bookId": "23",
-      "bookImage": "assets/images/img_22.png",
+      "bookImage": "assets/book_pics/img_22.png",
       "bookName": "The Year of the Puppy: How Dogs Become Themselves",
       "bookAuthor": "Alexandra Horowitz",
       "bookSummary": "Few of us meet our dogs at Day One. The dog who will, eventually, become an integral part of our family, our constant companion and best friend, is born without us into a family of her own. A puppy's critical early development into the dog we come to know is usually missed entirely. Dog researcher Alexandra Horowitz aimed to change that with her family's new pup, Quiddity (Quid). In this scientific memoir, she charts Quid's growth from wee grub to boisterous sprite, from her birth to her first birthday.",
@@ -553,7 +553,7 @@
     },
     {
       "bookId": "24",
-      "bookImage": "assets/images/img_23.png",
+      "bookImage": "assets/book_pics/img_23.png",
       "bookName": "Common Sense and Other Works",
       "bookAuthor": "Thomas Paine",
       "bookSummary": "When Thomas Paine published his pamphlet Common Sense over the course of 1775 and 1776 it helped to galvanize the colonists to demand egalitarian government and separation from Great Britain. A bestseller in its day, it is recognized as one of the most important historical documents in the run up to the American Revolution. This volume contains not only the full text of Common Sense, but also the full text of Rights of Man, Paine’s defense of the French Revolution, and the first five pamphlets in his American Crisis series.",
@@ -575,7 +575,7 @@
     },
     {
       "bookId": "25",
-      "bookImage": "assets/images/img_24.png",
+      "bookImage": "assets/book_pics/img_24.png",
       "bookName": "The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living",
       "bookAuthor": "Ryan Holiday, Stephen Hanselman",
       "bookSummary": "Why have history's greatest minds—from George Washington to Frederick the Great to Ralph Waldo Emerson, along with today's top performers from Super Bowl-winning football coaches to CEOs and celebrities—embraced the wisdom of the ancient Stoics? Because they realize that the most valuable wisdom is timeless and that philosophy is for living a better life, not a classroom exercise.",
@@ -597,7 +597,7 @@
     },
     {
       "bookId": "26",
-      "bookImage": "assets/images/img_25.png",
+      "bookImage": "assets/book_pics/img_25.png",
       "bookName": "Meditations",
       "bookAuthor": "Marcus Aurelius",
       "bookSummary": "To provide a full understanding of Aurelius's seminal work, this edition includes explanatory notes, a general index, an index of quotations, an index of names, and an introduction by Diskin Clay putting the work in its biographical, historical, and literary context, a chronology of Marcus Aurelius's life and career.",
@@ -619,7 +619,7 @@
     },
     {
       "bookId": "27",
-      "bookImage": "assets/images/img_26.png",
+      "bookImage": "assets/book_pics/img_26.png",
       "bookName": "Meditations: A New Translation",
       "bookAuthor": " Marcus Aurelius",
       "bookSummary": "Few ancient works have been as influential as the Meditations of Marcus Aurelius, philosopher and emperor of Rome (A.D. 161–180). A series of spiritual exercises filled with wisdom, practical guidance, and profound understanding of human behavior, it remains one of the greatest works of spiritual and ethical reflection ever written. Marcus’s insights and advice—on everything from living in the world to coping with adversity and interacting with others—have made the Meditations required reading for statesmen and philosophers alike, while generations of ordinary readers have responded to the straightforward intimacy of his style. For anyone who struggles to reconcile the demands of leadership with a concern for personal integrity and spiritual well-being, the Meditations remains as relevant now as it was two thousand years ago.",
@@ -641,7 +641,7 @@
     },
     {
       "bookId": "28",
-      "bookImage": "assets/images/img_27.png",
+      "bookImage": "assets/book_pics/img_27.png",
       "bookName": "Beyond Good and Evil",
       "bookAuthor": "Frederich Nietzsche",
       "bookSummary": "Expanding on his ideas from Thus Spoke Zarathustra, this influential text undermines the assumptions of traditional morality and encourages us to think more critically about the world in which we live. Nietzsche considers past philosophers and religious leaders from Socrates to Descartes to Schopenhauer with a critical and pessimistic eye. Questioning the blind following of religious faith, he examines the deeper question of who is truly good or evil.",
@@ -663,7 +663,7 @@
     },
     {
       "bookId": "29",
-      "bookImage": "assets/images/img_28.png",
+      "bookImage": "assets/book_pics/img_28.png",
       "bookName": "Into the Wild",
       "bookAuthor": "Jon Krakauer",
       "bookSummary": "Jon Krakauer constructs a clarifying prism through which he reassembles the disquieting facts of McCandless's short life. Admitting an interest that borders on obsession, he searches for the clues to the drives and desires that propelled McCandless. \n",
@@ -685,7 +685,7 @@
     },
     {
       "bookId": "30",
-      "bookImage": "assets/images/img_29.png",
+      "bookImage": "assets/book_pics/img_29.png",
       "bookName": "Waypoints: My Scottish Journey",
       "bookAuthor": "Sam Heughan",
       "bookSummary": "Journey deep into the Scottish Highlands in the first memoir by #1 New York Times bestselling author and award-winning star of Outlander, Sam Heughan—exploring his life and reflecting on the waypoints that define him.",
@@ -707,7 +707,7 @@
     },
     {
       "bookId": "31",
-      "bookImage": "assets/images/img_30.png",
+      "bookImage": "assets/book_pics/img_30.png",
       "bookName": "Four Seasons in Rome: On Twins, Insomnia, and the Biggest Funeral in the History of the World",
       "bookAuthor": "Anthony Doerr",
       "bookSummary": "Anthony Doerr has received many awards—from the New York Public Library, the National Endowment for the Arts, and the American Library Association. Then came the Rome Prize, one of the most prestigious awards from the American Academy of Arts and Letters, and with it a stipend and a writing studio in Rome for a year. Doerr learned of the award the day he and his wife returned from the hospital with newborn twins.",
@@ -729,7 +729,7 @@
     },
     {
       "bookId": "32",
-      "bookImage": "assets/images/img_31.png",
+      "bookImage": "assets/book_pics/img_31.png",
       "bookName": "The Ride of Her Life: The True Story of a Woman, Her Horse, and Their Last-Chance Journey Across America",
       "bookAuthor": "Elizabeth Letts",
       "bookSummary": "“The gift Elizabeth Letts has is that she makes you feel you are the one taking this trip. This is a book we can enjoy always but especially need now.”—Elizabeth Berg, author of The Story of Arthur Truluv",
@@ -751,7 +751,7 @@
     },
     {
       "bookId": "33",
-      "bookImage": "assets/images/img_32.png",
+      "bookImage": "assets/book_pics/img_32.png",
       "bookName": "You're My Little Cuddle Bug",
       "bookAuthor": "Nicola Edwards, Natalie Marshall (Illustrator)",
       "bookSummary": "“You’re My Little Cuddle Bug is sure to become one of your family’s favorite books,” says NAPPA Director Elena Epstein. “This charming book will capture your child’s imagination while celebrating love and hugs.”",
@@ -773,7 +773,7 @@
     },
     {
       "bookId": "34",
-      "bookImage": "assets/images/img_33.png",
+      "bookImage": "assets/book_pics/img_33.png",
       "bookName": "How to Catch a Loveosaurus (How to Catch... Series)",
       "bookAuthor": "Alice Walstead, Andy Elkerton (Illustrator)",
       "bookSummary": "Can you catch the magical Loveosaurus? The Catch Club Kids are on the chase again, this time to trap a dinosaur that escaped from the museum and wants to spread love and kindness. Blending exciting traps and STEAM concepts with hilarity and chaos to encourage reading, learning, and imagination, this charming adventure will delight young readers, families, and educators alike—and maybe inspire spreading some kindness too! This funny children's picture book makes the perfect bedtime read-aloud and Valentine's Day gift for kids ages 4-10!",
@@ -795,7 +795,7 @@
     },
     {
       "bookId": "35",
-      "bookImage": "assets/images/img_34.png",
+      "bookImage": "assets/book_pics/img_34.png",
       "bookName": "Little Blue Truck's Valentine",
       "bookAuthor": "Alice Schertle, Jill McElmurry (Illustrator)",
       "bookSummary": "Spread the love with Little Blue Truck—a perfect Valentine's Day read-aloud in this best-selling series!\n\"Beep!\" said Blue. \"Happy Valentine's Day!\"\n\nJoin Little Blue Truck as he delivers Valentine's Day cards to all his farm animal friends. But as Blue beeps along, he starts to wonder: will he get any cards of his own?\n\nWith brightly colored foil accents throughout and a large gatefold at the end, this book is the perfect Valentine's Day gift.",
@@ -817,7 +817,7 @@
     },
     {
       "bookId": "36",
-      "bookImage": "assets/images/img_35.png",
+      "bookImage": "assets/book_pics/img_35.png",
       "bookName": "The Invisible String",
       "bookAuthor": "Patrice Karst, Joanne Lew-Vriethoff (Illustrator)",
       "bookSummary": "With over a million copies sold, this accessible, bestselling picture book phenomenon about the unbreakable connections between loved ones has healed a generation of readers—children and adults alike—and has been updated with new illustrations and an afterword from the author. Also available: Spanish edition (El hilo invisible) and a companion workbook (The Invisible String Workbook).",
@@ -844,7 +844,7 @@
     },
     {
       "bookId": "37",
-      "bookImage": "assets/images/img_36.png",
+      "bookImage": "assets/book_pics/img_36.png",
       "bookName": "Love You Forever",
       "bookAuthor": "Robert Munsch, Sheila McGraw (Illustrator)",
       "bookSummary": "Love You Forever is a timeless classic, telling the story of an unbreakable bond between parent and child. This board book makes the perfect gift for parents and parents-to-be.",
@@ -881,7 +881,7 @@
     },
     {
       "bookId": "38",
-      "bookImage": "assets/images/img_37.png",
+      "bookImage": "assets/book_pics/img_37.png",
       "bookName": "Triple Cross",
       "bookAuthor": "James Patterson",
       "bookSummary": "A precise killer, he always moves under the cover of darkness, flawlessly triggering no alarms, leaving no physical evidence.  ",
@@ -913,7 +913,7 @@
     },
     {
       "bookId": "39",
-      "bookImage": "assets/images/img_38.png",
+      "bookImage": "assets/book_pics/img_38.png",
       "bookName": "Livid",
       "bookAuthor": "Patricia Cornwell",
       "bookSummary": "In this thrilling installment of the #1 bestselling series, chief medical examiner Dr. Kay Scarpetta finds herself a reluctant star witness in a sensational televised murder trial causing chaos in Old Town Alexandria with the threat of violent protests.",
@@ -940,7 +940,7 @@
     },
     {
       "bookId": "40",
-      "bookImage": "assets/images/img_39.png",
+      "bookImage": "assets/book_pics/img_39.png",
       "bookName": "Run, Rose, Run",
       "bookAuthor": "Dolly Parton and James Patterson, Dolly Parton, James Patterson",
       "bookSummary": "From America’s most beloved superstar and its greatest storyteller—a thriller about a young singer-songwriter on the rise and on the run, and determined to do whatever it takes to survive.",
@@ -967,7 +967,7 @@
     },
     {
       "bookId": "41",
-      "bookImage": "assets/images/img_40.png",
+      "bookImage": "assets/book_pics/img_40.png",
       "bookName": "Modern Comfort Food: A Barefoot Contessa Cookbook",
       "bookAuthor": "Ina Garten",
       "bookSummary": "For someone who has over 12 million cookbooks in print, it's a little shocking that everyone's favorite Food Network star, Ina Garten, hasn't devoted a cookbook to comfort food ... until now. All her favorites are here, from childhood and throughout her life, which Ina looks back on with great nostalgia. Today, she updates these can't-miss comfort foods with new flavor profiles and ingredients. Another bestseller for one of the greatest cookbook authors on the planet.",
@@ -994,7 +994,7 @@
     },
     {
       "bookId": "42",
-      "bookImage": "assets/images/img_41.png",
+      "bookImage": "assets/book_pics/img_41.png",
       "bookName": "Laundry Love: Finding Joy in a Common Chore",
       "bookAuthor": "Patric Richardson, Karin B. Miller",
       "bookSummary": "Patric Richardson, aka the \"Laundry Evangelist,” reveals his revolutionary methods for cleaning clothes—and making laundry loads more fun.",
@@ -1021,7 +1021,7 @@
     },
     {
       "bookId": "43",
-      "bookImage": "assets/images/img_42.png",
+      "bookImage": "assets/book_pics/img_42.png",
       "bookName": "I'll Build a Stairway to Paradise: A Life of Bunny Mellon",
       "bookAuthor": "Mac Griswold",
       "bookSummary": "The story of Bunny Mellon, the great landscape and interior designer, becomes a revelatory exploration of extreme wealth in the American century.",

@@ -22,7 +22,7 @@ List<Product> products = [
       price: 234,
       size: 12,
       description: dummyText,
-      image: "assets/images/scifi.png",
+      image: "assets/book_pics/scifi.png",
       color: Colors.deepPurple
   )
 ];

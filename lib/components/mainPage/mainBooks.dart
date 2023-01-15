@@ -14,23 +14,23 @@ class AllBooks extends StatelessWidget {
       child: Row(
         children: [
           AllBooksCard(
-            image: "assets/images/scifi.png",
+            image: "assets/book_pics/scifi.png",
             press: (){},
           ),
           AllBooksCard(
-            image: "assets/images/scifi.png",
+            image: "assets/book_pics/scifi.png",
             press: (){},
           ),
           AllBooksCard(
-            image: "assets/images/scifi.png",
+            image: "assets/book_pics/scifi.png",
             press: (){},
           ),
           AllBooksCard(
-            image: "assets/images/scifi.png",
+            image: "assets/book_pics/scifi.png",
             press: (){},
           ),
           AllBooksCard(
-            image: "assets/images/scifi.png",
+            image: "assets/book_pics/scifi.png",
             press: (){},
           ),
         ],

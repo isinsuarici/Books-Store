@@ -2,49 +2,49 @@
   "feed": [
     {
       "bookId": "1",
-      "profileImage": "assets/images/img_43.png",
+      "profileImage": "assets/profile_pics/img_43.png",
       "timeStamp": "10",
       "comment": "It way a good book"
     },
     {
       "bookId": "2",
-      "profileImage": "assets/images/img_44.png",
+      "profileImage": "assets/profile_pics/img_44.png",
       "timeStamp": "15",
       "comment": "I enjoyed this book so much "
     },
     {
       "bookId": "3",
-      "profileImage": "assets/images/img_45.png",
+      "profileImage": "assets/profile_pics/img_45.png",
       "timeStamp": "20",
       "comment": "This is such a thought provoking read. "
     },
     {
       "bookId": "4",
-      "profileImage": "assets/images/img_46.png",
+      "profileImage": "assets/profile_pics/img_46.png",
       "timeStamp": "25",
       "comment": "Absolutely Amazing! "
     },
     {
       "bookId": "5",
-      "profileImage": "assets/images/img_47.png",
+      "profileImage": "assets/profile_pics/img_47.png",
       "timeStamp": "27",
       "comment": "Really fascinating book. "
     },
     {
       "bookId": "6",
-      "profileImage": "assets/images/img_48.png",
+      "profileImage": "assets/profile_pics/img_48.png",
       "timeStamp": "30",
       "comment": "...i like to read topics randomly and came across this great book."
     },
     {
       "bookId": "7",
-      "profileImage": "assets/images/img_49.png",
+      "profileImage": "assets/profile_pics/img_49.png",
       "timeStamp": "45",
       "comment": "This book was terrible."
     },
     {
       "bookId": "8",
-      "profileImage": "assets/images/img_50.png",
+      "profileImage": "assets/profile_pics/img_50.png",
       "timeStamp": "48",
       "comment": "Absolutely Amazing! "
     }
