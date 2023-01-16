@@ -49,31 +49,56 @@ class Books extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                Container(
-                    child: Row(children: [
-                      Hero(
-                          tag: book.bookImage,
-                          child: Image(
-                            image: AssetImage(book.bookImage),
-                            fit: BoxFit.cover,
-                            height: 120.0,
-                          )),
-                      SizedBox(width: 10.0),
-                      Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(book.bookName,
+                Row(children: [
+                  Hero(
+                      tag: book.bookImage,
+                      child: Image(
+                        image: AssetImage(book.bookImage),
+                        fit: BoxFit.fitWidth,
+                        width: 100,
+                      )),
+                  const SizedBox(width: 10.0),
+                  Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.only(bottom: 40, top: 10),
+                          child: ConstrainedBox(
+                            constraints: const BoxConstraints(
+                              minWidth: 0.0,
+                              maxWidth: 200.0,
+                              minHeight: 0.0,
+                              maxHeight: 70.0,
+                            ),
+                            child:  Text(
+                              book.bookName,
+                                maxLines: 3,
                                 style: const TextStyle(
                                     fontFamily: 'Montserrat',
-                                    fontSize: 17.0,
-                                    fontWeight: FontWeight.bold)),
-                            Text(book.bookAuthor,
+                                    fontSize: 18.0,
+                                    color: Colors.black)),
+                          ),
+                        ),
+                        Container(
+                          padding: const EdgeInsets.only(bottom: 50),
+                          child: ConstrainedBox(
+                            constraints: const BoxConstraints(
+                              minWidth: 0.0,
+                              maxWidth: 200.0,
+                              minHeight: 0.0,
+                              maxHeight: 70.0,
+                            ),
+                            child:  Text(
+                                book.bookAuthor,
+                                maxLines: 3,
                                 style: const TextStyle(
                                     fontFamily: 'Montserrat',
-                                    fontSize: 15.0,
-                                    color: Colors.grey))
-                          ])
-                    ])),
+                                    fontSize: 18.0,
+                                    color: Colors.grey)),
+                          ),
+                        ),
+                      ])
+                ]),
                 // yana icon koyabilirsiniz
               ],
             )));
