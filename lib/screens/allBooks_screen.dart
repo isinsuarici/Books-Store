@@ -5,7 +5,7 @@ import '../models/sample_book.dart';
 
 class AllBooksScreen extends StatelessWidget {
 
-  final exploreService = MockFooderlichService();
+  final exploreService = MockBooksService();
 
   AllBooksScreen({Key? key}) : super(key: key);
 
