@@ -54,8 +54,9 @@ class Books extends StatelessWidget {
                       tag: book.bookImage,
                       child: Image(
                         image: AssetImage(book.bookImage),
-                        fit: BoxFit.fitWidth,
-                        width: 100,
+                        fit: BoxFit.fill,
+                        width: 110,
+                        height: 150,
                       )),
                   const SizedBox(width: 10.0),
                   Column(
