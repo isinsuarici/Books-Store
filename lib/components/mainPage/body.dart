@@ -6,6 +6,7 @@ import 'package:books_store/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../screens/allBooks_screen.dart';
+import '../../screens/bestSellers_screen.dart';
 import 'mainBooks.dart';
 
 
@@ -19,7 +20,7 @@ class Bodyy extends StatelessWidget {
         children: <Widget>[
           HeaderWithSearchBox(size: size),
           TitleWithMoreButton(title: "Best Sellers",press: (){}),
-          BestSellers(),
+          BestSellersScreen(),
           TitleWithMoreButton(title: "Categories", press: (){}),
           Categories(),
           SizedBox(height: kDefaultPadding),

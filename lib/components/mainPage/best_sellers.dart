@@ -1,61 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import '../../models/sample_book.dart';
 
 import '../../constants.dart';
 
 class BestSellers extends StatelessWidget {
-  const BestSellers({
-    Key? key,
-  }) : super(key: key);
+  final BookInfo book;
 
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      child: Row(
-        children: <Widget>[
-          BestSellerBookCard(
-            image: "assets/book_pics/scifi.png",
-            title: "Fall to Earth",
-            store: "Adımlar Store",
-            price: 30,
-            press: (){},
-          ),
-          BestSellerBookCard(
-            image: "assets/book_pics/scifi.png",
-            title: "Fall to Earth",
-            store: "Adımlar Store",
-            price: 30,
-            press: (){},
-          ),
-          BestSellerBookCard(
-            image: "assets/book_pics/scifi.png",
-            title: "Fall to Earth",
-            store: "Adımlar Store",
-            price: 30,
-            press: (){},
-          ),
-        ],
-
-      ),
-    );
-  }
-}
-
-class BestSellerBookCard extends StatelessWidget {
-  const BestSellerBookCard({
-    Key? key, required this.image, required this.title, required this.store, required this.price, required this.press,
-  }) : super(key: key);
-
-  final String image,title,store;
-  final int price;
-  final Function press;
+  const BestSellers({Key? key, required this.book,}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     Size size= MediaQuery.of(context).size;
     return Container(
-      margin: EdgeInsets.only(
+      margin: const EdgeInsets.only(
         left: kDefaultPadding,
         top: kDefaultPadding/2,
         bottom: kDefaultPadding * 2.5,
@@ -63,20 +21,20 @@ class BestSellerBookCard extends StatelessWidget {
       width: size.width * 0.4,
       child: Column(
         children: <Widget>[
-          Image.asset(image),
+          Image.asset(book.bookImage),
           GestureDetector(
-            onTap: press(),
+            //onTap: press(),
             child: Container(
-              padding: EdgeInsets.all(kDefaultPadding/2),
+              padding: const EdgeInsets.all(kDefaultPadding/2),
               decoration: BoxDecoration(
                 color: Colors.white,
-                borderRadius: BorderRadius.only(
+                borderRadius: const BorderRadius.only(
                   bottomRight: Radius.circular(10),
                   bottomLeft: Radius.circular(10),
                 ),
                 boxShadow: [
                   BoxShadow(
-                    offset: Offset(0,10),
+                    offset: const Offset(0,10),
                     blurRadius: 50,
                     color: kPrimaryColor.withOpacity(0.23),
                   )
@@ -88,11 +46,11 @@ class BestSellerBookCard extends StatelessWidget {
                     text: TextSpan(
                       children: [
                         TextSpan(
-                          text: "$title\n".toUpperCase(),
+                          text: book.bookName.toUpperCase(),
                           style: Theme.of(context).textTheme.button,
                         ),
                         TextSpan(
-                          text: "$store",
+                          text: book.bookStores[0].bookStoreName,
                           style: TextStyle(
                             color: kPrimaryColor.withOpacity(0.5),
                           ),
@@ -100,9 +58,9 @@ class BestSellerBookCard extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Spacer(),
+                  const Spacer(),
                   Text(
-                    '\$$price',
+                    book.bookStores[0].price,
                     style: Theme.of(context)
                         .textTheme
                         .button
@@ -117,3 +75,48 @@ class BestSellerBookCard extends StatelessWidget {
     );
   }
 }
+
+class BestSellerBookCard extends StatelessWidget {
+
+  final List<BookInfo> books;
+
+  const BestSellerBookCard({
+    Key? key, required this.books,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 300,
+      width: 300,
+      child: ListView.separated(
+        scrollDirection: Axis.horizontal,
+        itemCount: books.length,
+        itemBuilder: (context, index) {
+          final book = books[index];
+          return BestSellers(book:book);
+        }, separatorBuilder: (BuildContext context, int index) {
+        return const SizedBox(width:16); },
+      ),
+    );
+
+  }
+}
+
+
+/*
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      child: Row(
+        children: <Widget>[
+          BestSellerBookCard(
+            image: "assets/book_pics/scifi.png",
+            title: "Fall to Earth",
+            store: "Adımlar Store",
+            price: 30,
+            press: (){},
+          ),
+        ],
+      ),
+    );
+ */
