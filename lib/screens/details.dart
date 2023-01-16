@@ -4,8 +4,11 @@ class DetailsPage extends StatefulWidget {
   final heroTag;
   final bookName;
   final bookAuthor;
+  final bookPublishedYear;
+  final bookPageNumber;
+  final bookSummary;
 
-  DetailsPage({this.heroTag, this.bookName, this.bookAuthor});
+  DetailsPage({this.heroTag, this.bookName, this.bookAuthor, this.bookPublishedYear, this.bookPageNumber, this.bookSummary});
 
   @override
   _DetailsPageState createState() => _DetailsPageState();
@@ -106,13 +109,13 @@ class _DetailsPageState extends State<DetailsPage> {
                           child: Column(
                             children: [
                               Row(
-                                children: const [
+                                children:  [
                                   Text("Published Year: ",
                                       style: TextStyle(
                                           fontFamily: 'Montserrat',
                                           fontSize: 15,
                                           color: Colors.black)),
-                                  Text("2015",
+                                  Text(widget.bookPublishedYear,
                                       style: TextStyle(
                                           fontFamily: 'Montserrat',
                                           fontSize: 15,
@@ -121,13 +124,13 @@ class _DetailsPageState extends State<DetailsPage> {
                               ),
 
                               Row(
-                                children: const [
+                                children:  [
                                   Text("Page Number: ",
                                       style: TextStyle(
                                           fontFamily: 'Montserrat',
                                           fontSize: 15,
                                           color: Colors.black)),
-                                  Text("128",
+                                  Text(widget.bookPageNumber,
                                       style: TextStyle(
                                           fontFamily: 'Montserrat',
                                           fontSize: 15,
@@ -162,8 +165,8 @@ class _DetailsPageState extends State<DetailsPage> {
                                   minHeight: 30.0,
                                   maxHeight: 800.0,
                                 ),
-                                child: const Text(
-                                    "An astonishing collection about interconnectedness—between the human and nonhuman, ancestors and ourselves—from National Book Critics Circle Award winner, National Book Award finalist and U.S. Poet Laureate Ada Limón.",
+                                child:  Text(
+                                  widget.bookSummary,
                                     style: TextStyle(
                                         fontFamily: 'Montserrat',
                                         fontSize: 20.0,

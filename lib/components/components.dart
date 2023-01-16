@@ -1,7 +1,6 @@
 export 'detail/body.dart';
 export 'detail/color_and_size.dart';
-export 'detail/description.dart';
-export 'detail/informations.dart';
+
 export 'detail/product_title_with_image.dart';
 
 export 'mainPage/best_sellers.dart';

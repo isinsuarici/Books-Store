@@ -25,7 +25,6 @@ class AllBooksListView extends StatelessWidget {
       }, separatorBuilder: (BuildContext context, int index) {
       return const SizedBox(width:16); },
     );
-
   }
 }
 class Books extends StatelessWidget {
@@ -44,7 +43,10 @@ class Books extends StatelessWidget {
                   builder: (context) => DetailsPage(
                       heroTag: book.bookImage,
                       bookName: book.bookName,
-                      bookAuthor: book.bookAuthor)));
+                      bookAuthor: book.bookAuthor,
+                  bookPageNumber: book.bookPageNumber,
+                  bookPublishedYear: book.bookPublishedYear,
+                      bookSummary: book.bookSummary,)));
             },
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -4,11 +4,11 @@ import '../../models/Product.dart';
 
 class ColorAndSize extends StatelessWidget {
   const ColorAndSize({
-    Key? key, required this.product,
+    Key? key
   }) : super(key: key);
 
 
-  final Product product;
+
 
   @override
   Widget build(BuildContext context) {

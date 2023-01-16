@@ -1,15 +1,15 @@
-import 'package:books_store/components/detail/informations.dart';
+
 import 'package:flutter/material.dart';
 import '../../constants.dart';
 import '../../models/Product.dart';
 import 'color_and_size.dart';
-import 'description.dart';
+
 import 'product_title_with_image.dart';
 
-class Body extends StatelessWidget {
-  final Product product;
-  const Body({
-    Key? key, required this.product,
+class BodyForDetailsPage extends StatelessWidget {
+
+  const BodyForDetailsPage({
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -40,16 +40,11 @@ class Body extends StatelessWidget {
                   ),
                   child: Column(
                     children: <Widget>[
-                      ColorAndSize(product: product),
-                      const SizedBox(height: kDefaultPadding / 2),
-                      Informations(product: product),
-                      const SizedBox(height: kDefaultPadding / 2),
-                      Description(product: product),
-                      const SizedBox(height: kDefaultPadding / 2),
+                      const ColorAndSize(),
                     ],
                   ),
                 ),
-                ProductTitleWithImage(product: product),
+
 
               ],
             ),

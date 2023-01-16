@@ -6,24 +6,24 @@ import '../models/Product.dart';
 
 class DetailsScreen extends StatelessWidget {
 
-  final Product product;
+
   const DetailsScreen({
-    Key? key, required this.product,
+    Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       // each product have a color
-      backgroundColor: product.color,
+      backgroundColor: Colors.deepPurple,
       appBar: buildAppBar(context),
-      body: Body(product: product,),
+      body: BodyForDetailsPage(),
     );
   }
 
   AppBar buildAppBar(BuildContext context) {
     return AppBar(
-      backgroundColor: product.color,
+      backgroundColor: Colors.deepPurpleAccent,
       elevation: 0,
 
       actions: <Widget>[
