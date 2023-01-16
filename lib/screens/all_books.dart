@@ -1,3 +1,4 @@
+/* THIS PAGE HAS BEEN REMOVED TO AllBooks2,Bodyy2,allBooks_screen2,all_books_listView.
 import 'package:books_store/screens/details.dart';
 import 'package:flutter/material.dart';
 
@@ -164,3 +165,4 @@ class _MyHomePageState extends State<MyHomePage> {
             )));
   }
 }
+*/

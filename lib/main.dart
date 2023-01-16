@@ -16,7 +16,7 @@ class StaticApp extends StatelessWidget{
 
       routes: {
         '/basic':(context)=> BasicScreen(),
-        '/allBooks':(context)=> AllBooks(),
+      //  '/allBooks':()=> AllBooks2(),
       },
       initialRoute: '/',
       home: const OnboardingScreen(), );
