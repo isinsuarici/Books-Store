@@ -9,6 +9,7 @@ class BookInfo {
   String bookPublishedYear;
   String bookPageNumber;
   String bookCategory;
+  String bookRank;
   List<BookStores> bookStores;
 
   BookInfo({this.bookId = '',
@@ -19,6 +20,7 @@ class BookInfo {
     this.bookPublishedYear = '',
     this.bookPageNumber = '',
     this.bookCategory = '',
+    this.bookRank = '',
     this.bookStores = const[],
   });
 
@@ -40,6 +42,7 @@ class BookInfo {
       bookPublishedYear: json['bookPublishedYear'] ?? '',
       bookPageNumber: json['bookPageNumber'] ?? '',
       bookCategory: json['bookCategory'] ?? '',
+      bookRank: json['bookRank'] ?? '',
       bookStores: bookStores,
 
     );
