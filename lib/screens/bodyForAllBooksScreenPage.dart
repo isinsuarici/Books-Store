@@ -6,7 +6,7 @@ import '../../screens/bestSellers_screen.dart';
 
 
 
-class Bodyy2 extends StatelessWidget {
+class BodyForAllBooksScreenPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
@@ -77,7 +77,7 @@ class Bodyy2 extends StatelessWidget {
                   padding: EdgeInsets.only(top: 45.0),
                   child: Container(
                       height: MediaQuery.of(context).size.height - 300.0,
-                      child: AllBooksScreen2())),
+                      child: AllBooksScreenData())),
             ],
           ),
         )

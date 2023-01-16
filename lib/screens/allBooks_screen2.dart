@@ -4,11 +4,11 @@ import '../components/all_books_listView.dart';
 import '../components/components.dart';
 import '../models/sample_book.dart';
 
-class AllBooksScreen2 extends StatelessWidget {
+class AllBooksScreenData extends StatelessWidget {
 
   final exploreService = MockBooksService();
 
-  AllBooksScreen2({Key? key}) : super(key: key);
+  AllBooksScreenData({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

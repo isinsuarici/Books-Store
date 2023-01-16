@@ -1,5 +1,5 @@
 
-import 'package:books_store/screens/AllBooks2.dart';
+import 'package:books_store/screens/allBooksScreenPage.dart';
 import 'package:books_store/screens/all_books.dart';
 import 'package:flutter/material.dart';
 import '../../constants.dart';
@@ -30,7 +30,7 @@ class TitleWithMoreButton extends StatelessWidget {
               padding: const EdgeInsets.all(10),
             ),
             onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context)=> AllBooks2()));
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> AllBooksScreenPage()));
             },
 
             child: const Text(
