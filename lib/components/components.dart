@@ -1,0 +1,13 @@
+export 'detail/body.dart';
+export 'detail/color_and_size.dart';
+export 'detail/description.dart';
+export 'detail/informations.dart';
+export 'detail/product_title_with_image.dart';
+
+export 'mainPage/best_sellers.dart';
+export 'mainPage/body.dart';
+export 'mainPage/categories.dart';
+export 'mainPage/header-with_searchbox.dart';
+export 'mainPage/mainBooks.dart';
+export 'mainPage/title_with_more_button.dart';
+

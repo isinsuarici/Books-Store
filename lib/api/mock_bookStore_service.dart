@@ -4,13 +4,12 @@ import '../models/models.dart';
 
 class MockFooderlichService {
   Future<ExploreData> getExploreData() async {
-    final bookInformations = await _getBookInformations();
     final feedInformations = await _getFeedInformations();
 
-    return ExploreData(bookInformations, feedInformations);
+    return ExploreData(feedInformations);
   }
 
-  Future<List<BookInfo>> _getBookInformations() async {
+  Future<List<BookInfo>> getBookInformations() async {
     await Future.delayed(const Duration(milliseconds: 1000));
     final dataString =
     await _loadAsset('assets/data_samples/bookInfo.json');
