@@ -7,41 +7,44 @@ import '../../constants.dart';
 class BestSellers extends StatelessWidget {
   final BookInfo book;
 
-  const BestSellers({Key? key, required this.book,}) : super(key: key);
+  const BestSellers({
+    Key? key,
+    required this.book,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    Size size= MediaQuery.of(context).size;
+    Size size = MediaQuery.of(context).size;
     return Container(
       margin: const EdgeInsets.only(
         left: kDefaultPadding,
-        top: kDefaultPadding/2,
+        top: kDefaultPadding / 2,
         bottom: kDefaultPadding * 2.5,
       ),
-      width: size.width * 0.4,
+      width:150,
+    //  width: size.width * 0.3,
       child: Column(
         children: <Widget>[
           Image.asset(book.bookImage),
           GestureDetector(
             //onTap: press(),
             child: Container(
-              padding: const EdgeInsets.all(kDefaultPadding/2),
+              padding: const EdgeInsets.all(kDefaultPadding / 2),
               decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: const BorderRadius.only(
-                  bottomRight: Radius.circular(10),
-                  bottomLeft: Radius.circular(10),
+                borderRadius: const BorderRadius.all(
+                  Radius.circular(10),
                 ),
                 boxShadow: [
                   BoxShadow(
-                    offset: const Offset(0,10),
+                    offset: const Offset(0, 10),
                     blurRadius: 50,
                     color: kPrimaryColor.withOpacity(0.23),
                   )
                 ],
               ),
               child: Row(
-                children: <Widget>[
+                children: const <Widget>[
+                  /*
                   RichText(
                     text: TextSpan(
                       children: [
@@ -58,7 +61,10 @@ class BestSellers extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const Spacer(),
+
+                   */
+                //  Spacer(),
+                  /*
                   Text(
                     book.bookStores[0].price,
                     style: Theme.of(context)
@@ -66,6 +72,9 @@ class BestSellers extends StatelessWidget {
                         .button
                         ?.copyWith(color: kPrimaryColor),
                   ),
+
+
+                   */
                 ],
               ),
             ),
@@ -77,32 +86,32 @@ class BestSellers extends StatelessWidget {
 }
 
 class BestSellerBookCard extends StatelessWidget {
-
   final List<BookInfo> books;
 
   const BestSellerBookCard({
-    Key? key, required this.books,
+    Key? key,
+    required this.books,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 300,
-      width: 300,
+      height: 330,
+
       child: ListView.separated(
         scrollDirection: Axis.horizontal,
         itemCount: books.length,
         itemBuilder: (context, index) {
           final book = books[index];
-          return BestSellers(book:book);
-        }, separatorBuilder: (BuildContext context, int index) {
-        return const SizedBox(width:16); },
+          return BestSellers(book: book);
+        },
+        separatorBuilder: (BuildContext context, int index) {
+          return const SizedBox(width: 46);
+        },
       ),
     );
-
   }
 }
-
 
 /*
     return SingleChildScrollView(
