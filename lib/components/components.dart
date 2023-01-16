@@ -7,6 +7,6 @@ export 'mainPage/best_sellers.dart';
 export 'mainPage/body.dart';
 export 'mainPage/categories.dart';
 export 'mainPage/header-with_searchbox.dart';
-export 'mainPage/mainBooks.dart';
+// export 'mainPage/mainBooks.dart';
 export 'mainPage/title_with_more_button.dart';
 
