@@ -10,6 +10,12 @@ class DetailsPage extends StatefulWidget {
   final bookSummary;
   final bookCategory;
   final price1;
+  final price2;
+  final store1;
+  final store2;
+  final stock1;
+  final stock2;
+
   DetailsPage(
       {this.heroTag,
       this.bookName,
@@ -18,7 +24,7 @@ class DetailsPage extends StatefulWidget {
       this.bookPageNumber,
       this.bookSummary,
       this.bookCategory,
-      this.price1});
+      this.price1, this.price2, this.store1, this.store2, this.stock1, this.stock2});
 
   @override
   _DetailsPageState createState() => _DetailsPageState();
@@ -293,69 +299,98 @@ class _DetailsPageState extends State<DetailsPage> {
                                                 ])
                                               ]),
                                               const SizedBox(height: 10),
-                                              Row(children: [
-                                                Column(children: [
-                                                  Container(
-                                                    padding:
-                                                        const EdgeInsets.only(
-                                                            top: 20,
-                                                            bottom: 8,
-                                                            left: 30),
-                                                    child: const Text("Stores",
-                                                        style: TextStyle(
-                                                            fontFamily:
-                                                                'Montserrat',
-                                                            fontSize: 20.0,
-                                                            fontWeight:
-                                                                FontWeight.bold,
-                                                            color: Colors
-                                                                .deepPurple)),
-                                                  ),
-                                                  Container(
-                                                    
-                                                    margin:
-                                                        const EdgeInsets.only(
-                                                      left: kDefaultPadding,
-                                                      top: kDefaultPadding / 2,
-                                                      bottom:
-                                                          kDefaultPadding / 2,
-                                                    ),
-                                                    width: 200,
-                                                    height: 200,
-                                                    decoration: BoxDecoration(
-                                                      borderRadius:
-                                                          BorderRadius.circular(
-                                                              10),
-                                                    ),
-                                                    child: Row(
-                                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                                      children: [
-                                                      Column(
-                                                        children: [
-                                                          Text("Store Name: " + widget.price1,
-                                                              style: const TextStyle(
-                                                                  fontSize: 20,
-                                                                  fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                                  color: Colors
-                                                                      .black)),
-                                                          Text("Price: " + widget.price1,
-                                                              style: const TextStyle(
-                                                                  fontSize: 20,
-                                                                  fontWeight:
-                                                                  FontWeight
-                                                                      .bold,
-                                                                  color: Colors
-                                                                      .black))
-                                                        ],
-                                                      )
-                                                      ],
-                                                    ),
+                                              Row(
+                                                children: const [
+                                                  Text(
+                                                      "STORES",
+                                                      style: TextStyle(
+                                                          fontFamily:
+                                                          'Montserrat',
+                                                          fontSize: 25.0,
+                                                          fontWeight:
+                                                          FontWeight.bold,
+                                                          color:
+                                                          Colors.deepPurple)),
+                                                ],
+                                              ),
+                                              const SizedBox(height: 20),
+                                              Row(
+                                                children: [
+                                                  const Text("Store Name: ",
+                                                      style: TextStyle(
+                                                          fontFamily:
+                                                          'Montserrat',
+                                                          fontSize: 21.0,
+                                                          fontWeight:
+                                                          FontWeight.bold,
+                                                          color: Colors.black)),
+                                                  Text(widget.store1,
+                                                      style: const TextStyle(
+                                                          fontFamily:
+                                                          'Montserrat',
+                                                          fontSize: 22,
+                                                          color: Colors.black))
+                                                ],
+                                              ),
+                                              const SizedBox(height: 10),
+                                              Row(
+                                                children: [
+                                                  Text("Price: "+widget.price1+" TL",
+                                                      style: const TextStyle(
+                                                          fontFamily:
+                                                          'Montserrat',
+                                                          fontSize: 18,
+                                                          color: Colors.black)),
 
-                                                  )
-                                                ])
-                                              ]),
+                                                ],
+                                              ),
+                                              const SizedBox(height: 10),
+
+                                              Text("Stock: " + widget.stock1,
+                                                  style: TextStyle(
+                                                      fontFamily:
+                                                      'Montserrat',
+                                                      fontSize: 18.0,
+                                                      color: Colors.black)),
+                                              const SizedBox(height: 50),
+                                              Row(
+                                                children: [
+                                                  const Text("Store Name: ",
+                                                      style: TextStyle(
+                                                          fontFamily:
+                                                          'Montserrat',
+                                                          fontSize: 21.0,
+                                                          fontWeight:
+                                                          FontWeight.bold,
+                                                          color: Colors.black)),
+                                                  Text(widget.store2,
+                                                      style: const TextStyle(
+                                                          fontFamily:
+                                                          'Montserrat',
+                                                          fontSize: 22,
+                                                          color: Colors.black))
+                                                ],
+                                              ),
+                                              const SizedBox(height: 10),
+                                              Row(
+                                                children: [
+                                                  Text("Price: "+widget.price2+" TL",
+                                                      style: const TextStyle(
+                                                          fontFamily:
+                                                          'Montserrat',
+                                                          fontSize: 18,
+                                                          color: Colors.black)),
+
+                                                ],
+                                              ),
+                                              const SizedBox(height: 10),
+
+                                              Text("Stock: " + widget.stock2,
+                                                  style: TextStyle(
+                                                      fontFamily:
+                                                      'Montserrat',
+                                                      fontSize: 18.0,
+                                                      color: Colors.black)),
                                             ],
                                           ),
                                         )
