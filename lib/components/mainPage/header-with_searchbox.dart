@@ -38,9 +38,9 @@ class HeaderWithSearchBox extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 Text(
-                  "\nWelcome to Book Store",
+                  "\n  Welcome to Book Store",
                   style: Theme.of(context).textTheme.headline5?.copyWith(
-                      color: Colors.white, fontWeight: FontWeight.bold),
+                      color: Colors.white, fontWeight: FontWeight.bold,letterSpacing: 2.5),
                 ),
 
               ],

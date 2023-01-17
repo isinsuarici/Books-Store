@@ -18,14 +18,15 @@ class Bodyy extends StatelessWidget {
       child: Column(
         children: <Widget>[
           HeaderWithSearchBox(size: size),
-          const TitleElement(title: "Best Sellers"),
-           BestSellersScreen(),
-          const TitleElement(title: "Categories"),
-           const Categories(),
-          const SizedBox(height: kDefaultPadding),
           TitleWithMoreButtons(title: "All Books", press: (){}),
           AllBooksScreen(),
-          const SizedBox(height: kDefaultPadding),
+          Padding(padding: EdgeInsets.symmetric(horizontal: 0,vertical: 20)),
+          const TitleElement(title: "Best Sellers"),
+           BestSellersScreen(),
+          Padding(padding: EdgeInsets.symmetric(horizontal: 0,vertical: 20)),
+          const TitleElement(title: "Categories"),
+           const Categories(),
+          Padding(padding: EdgeInsets.symmetric(horizontal: 0,vertical: 20)),
         ],
       ),
     );
