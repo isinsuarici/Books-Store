@@ -106,7 +106,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                           topRight: Radius.circular(45.0),
                                         ),
                                         color: Colors.white),
-                                    height: MediaQuery.of(context).size.height,
+                                    height:800,
                                     width: MediaQuery.of(context).size.width,
                                     child: Row(
                                       children: [
@@ -119,33 +119,31 @@ class _DetailsPageState extends State<DetailsPage> {
                                             children: [
                                               Row(
                                                 children: [
-                                                  Center(
-                                                    child: Container(
-                                                      padding:
-                                                          const EdgeInsets.only(
-                                                              bottom: 10),
-                                                      child: ConstrainedBox(
-                                                        constraints:
-                                                            const BoxConstraints(
-                                                          minWidth: 80.0,
-                                                          maxWidth: 320.0,
-                                                          minHeight: 30.0,
-                                                          maxHeight: 120.0,
-                                                        ),
-                                                        child: Text(
-                                                            widget.bookName,
-                                                            style: const TextStyle(
-                                                                fontFamily:
-                                                                    'Montserrat',
-                                                                fontSize: 25.0,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w900,
-                                                                letterSpacing:
-                                                                    1.6,
-                                                                color: Colors
-                                                                    .black)),
+                                                  Container(
+                                                    padding:
+                                                        const EdgeInsets.only(
+                                                            bottom: 10),
+                                                    child: ConstrainedBox(
+                                                      constraints:
+                                                          const BoxConstraints(
+                                                        minWidth: 80.0,
+                                                        maxWidth: 320.0,
+                                                        minHeight: 30.0,
+                                                        maxHeight: 120.0,
                                                       ),
+                                                      child: Text(
+                                                          widget.bookName,
+                                                          style: const TextStyle(
+                                                              fontFamily:
+                                                                  'Montserrat',
+                                                              fontSize: 25.0,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w900,
+                                                              letterSpacing:
+                                                                  1.6,
+                                                              color: Colors
+                                                                  .black)),
                                                     ),
                                                   )
                                                 ],
@@ -263,7 +261,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                         minWidth: 300.0,
                                                         maxWidth: 350.0,
                                                         minHeight: 30.0,
-                                                        maxHeight: 800.0,
+                                                        maxHeight: 1000.0,
                                                       ),
                                                       child: Text(
                                                           widget.bookSummary,
