@@ -14,13 +14,10 @@ List<OnboardingContents> contents = [
   OnboardingContents(
       image: 'assets/image-removebg-preview.png',
       title: "Find the books you've\n been looking for",
-      desc: "Here you'll see rich varieties of books"),
+      desc: "You can review the summaries of the books you are curious to read."),
   OnboardingContents(
-      image: 'assets/priceIcon.png',
+      image: 'assets/istockphoto-1354173244-612x612-removebg-preview.png',
       title: "FIND BEST PRICE",
-      desc: "Find the cheapest book"),
-  OnboardingContents(
-      image: 'assets/search.jpg',
-      title: "SEARCH",
-      desc: "Discover books by type of book.  "),
+      desc: "You can compare the price of the book you want to buy from the bookstores in Eskişehir and find the most suitable one."),
+
 ];

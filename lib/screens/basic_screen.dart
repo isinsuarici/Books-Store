@@ -1,3 +1,4 @@
+import 'package:books_store/components/footer/footer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +11,7 @@ class BasicScreen extends StatelessWidget {
     return Scaffold(
       //appBar: buildAppBar(),
       body: Bodyy(),
+      bottomNavigationBar:BottomNav(),
     );
   }
 
