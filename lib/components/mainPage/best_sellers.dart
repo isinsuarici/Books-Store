@@ -61,9 +61,16 @@ class BestSellerBookCard extends StatelessWidget {
         itemCount: books.length,
         itemBuilder: (context, index) {
           final book = books[index];
-          return BestSellers(book:book);
+          if(book.bookRank=="5") {
+            return BestSellers(book: book);
+          }else {
+            return Container(width: 0.0, height: 0.0);
+          }
         }, separatorBuilder: (BuildContext context, int index) {
-        return const SizedBox(width:16); },
+    final book = books[index];
+    if(book.bookRank=="5") {
+        return const SizedBox(width:16); }
+    else return Container(width: 0,height: 0,);},
       ),
     );
 
