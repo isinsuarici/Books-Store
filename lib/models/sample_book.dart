@@ -15,6 +15,8 @@ class BookInfo {
   String price2;
   String store1;
   String store2;
+  String stock1;
+  String stock2;
 
   BookInfo({this.bookId = '',
     this.bookImage = '',
@@ -30,6 +32,8 @@ class BookInfo {
     this.price2='',
     this.store1='',
     this.store2='',
+    this.stock1='',
+    this.stock2='',
   });
 
   factory BookInfo.fromJson(Map<String, dynamic> json) {
@@ -56,7 +60,8 @@ class BookInfo {
       price2:json['price2'] ?? '',
       store1:json['store1'] ?? '',
       store2:json['store2'] ?? '',
-
+      stock1:json['stock1'] ?? '',
+      stock2:json['stock2'] ?? '',
     );
   }
 }

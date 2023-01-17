@@ -27,7 +27,9 @@ class BestSellers extends StatelessWidget {
           price1: book.price1,
           price2: book.price2,
           store1: book.store1,
-            store2: book.store2)));
+            store2: book.store2,
+            stock1:book.stock1,
+            stock2:book.stock2)));
       },
       child: Container(
         margin: const EdgeInsets.only(
