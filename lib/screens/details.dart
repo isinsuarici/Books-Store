@@ -50,7 +50,9 @@ class _DetailsPageState extends State<DetailsPage> {
             Container(
                 height: MediaQuery.of(context).size.height - 82.0,
                 width: MediaQuery.of(context).size.width,
-                color: Colors.transparent),
+                color: Colors.transparent
+
+            ),
             Positioned(
                 top: 75.0,
                 child: Container(
@@ -91,9 +93,8 @@ class _DetailsPageState extends State<DetailsPage> {
                             fontFamily: 'Montserrat',
                             fontSize: 22.0,
                             fontWeight: FontWeight.bold)),
-                    const SizedBox(height: 20.0),
+                    const SizedBox(height: 10.0),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Text(widget.bookAuthor,
                             style: const TextStyle(
@@ -105,18 +106,20 @@ class _DetailsPageState extends State<DetailsPage> {
                     Row(
                       children: [
                         Container(
-                          padding: const EdgeInsets.only(top: 20),
+                          padding: const EdgeInsets.only(top: 10),
                           child: Column(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment:CrossAxisAlignment.start,
                             children: [
                               Row(
                                 children:  [
-                                  Text("Published Year: ",
+                                  const Text("Published Year: ",
                                       style: TextStyle(
                                           fontFamily: 'Montserrat',
                                           fontSize: 15,
                                           color: Colors.black)),
                                   Text(widget.bookPublishedYear,
-                                      style: TextStyle(
+                                      style: const TextStyle(
                                           fontFamily: 'Montserrat',
                                           fontSize: 15,
                                           color: Colors.grey)),
@@ -125,13 +128,13 @@ class _DetailsPageState extends State<DetailsPage> {
 
                               Row(
                                 children:  [
-                                  Text("Page Number: ",
+                                  const Text("Page Number: ",
                                       style: TextStyle(
                                           fontFamily: 'Montserrat',
                                           fontSize: 15,
                                           color: Colors.black)),
                                   Text(widget.bookPageNumber,
-                                      style: TextStyle(
+                                      style: const TextStyle(
                                           fontFamily: 'Montserrat',
                                           fontSize: 15,
                                           color: Colors.grey)),
