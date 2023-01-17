@@ -1,6 +1,10 @@
+import 'package:books_store/screens/book_detail.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import '../../constants.dart';
 import '../../models/sample_book.dart';
+import '../../screens/allBooksScreenPage.dart';
+import '../../screens/details.dart';
 
 class BestSellers extends StatelessWidget {
   final BookInfo book;
@@ -12,6 +16,15 @@ class BestSellers extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return GestureDetector(
       //onTap: press(),
+      onTap: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> DetailsPage(bookCategory: book.bookCategory,
+          heroTag: book.bookImage,
+          bookName: book.bookName,
+          bookAuthor: book.bookAuthor,
+          bookPageNumber: book.bookPageNumber,
+          bookPublishedYear: book.bookPublishedYear,
+          bookSummary: book.bookSummary,)));
+      },
       child: Container(
         margin: const EdgeInsets.only(
           left: kDefaultPadding,
