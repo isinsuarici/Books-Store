@@ -1,3 +1,4 @@
+import 'package:books_store/screens/allBooks_screen.dart';
 import 'package:flutter/material.dart';
 
 class DetailsPage extends StatefulWidget {
@@ -102,7 +103,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                           topRight: Radius.circular(45.0),
                                         ),
                                         color: Colors.white),
-                                    height: MediaQuery.of(context).size.height-40,
+                                    height: MediaQuery.of(context).size.height,
                                     width: MediaQuery.of(context).size.width,
                                     child: Row(
                                       children: [
@@ -115,21 +116,31 @@ class _DetailsPageState extends State<DetailsPage> {
                                             children: [
                                               Row(
                                                 children: [
-                                                  const Text("Book Name: ",
-                                                      style: TextStyle(
-                                                          fontFamily:
-                                                              'Montserrat',
-                                                          fontSize: 18.0,
-                                                          fontWeight:
-                                                              FontWeight.bold,
-                                                          color: Colors
-                                                              .deepPurple)),
-                                                  Text(widget.bookName,
-                                                      style: const TextStyle(
-                                                          fontFamily:
-                                                              'Montserrat',
-                                                          fontSize: 20,
-                                                          color: Colors.black))
+                                                  Center(
+                                                    child: Container(
+                                                      padding:
+                                                          const EdgeInsets.only(bottom: 10),
+                                                      child: ConstrainedBox(
+                                                        constraints:
+                                                            const BoxConstraints(
+                                                          minWidth: 80.0,
+                                                          maxWidth: 320.0,
+                                                          minHeight: 30.0,
+                                                          maxHeight: 120.0,
+                                                        ),
+                                                        child: Text(
+                                                            widget.bookName,
+                                                            style: const TextStyle(
+                                                                fontFamily:
+                                                                    'Montserrat',
+                                                                fontSize: 25.0,
+                                                                fontWeight: FontWeight.w900,
+                                                                letterSpacing: 1.6,
+                                                                color: Colors
+                                                                    .black)),
+                                                      ),
+                                                    ),
+                                                  )
                                                 ],
                                               ),
                                               const SizedBox(
@@ -145,7 +156,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           fontWeight:
                                                               FontWeight.bold,
                                                           color: Colors
-                                                              .deepPurple)),
+                                                              .black)),
                                                   Text(widget.bookAuthor,
                                                       style: const TextStyle(
                                                           fontFamily:
@@ -167,7 +178,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           fontWeight:
                                                               FontWeight.bold,
                                                           color: Colors
-                                                              .deepPurple)),
+                                                              .black)),
                                                   Text(widget.bookPublishedYear,
                                                       style: const TextStyle(
                                                           fontFamily:
@@ -189,7 +200,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           fontWeight:
                                                               FontWeight.bold,
                                                           color: Colors
-                                                              .deepPurple)),
+                                                              .black)),
                                                   Text(widget.bookPageNumber,
                                                       style: const TextStyle(
                                                           fontFamily:
@@ -216,7 +227,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                             fontWeight:
                                                                 FontWeight.bold,
                                                             color: Colors
-                                                                .deepPurple)),
+                                                                .black)),
                                                   ),
                                                   Container(
                                                     padding:
@@ -238,6 +249,37 @@ class _DetailsPageState extends State<DetailsPage> {
                                                               fontSize: 18.0,
                                                               color: Colors
                                                                   .black)),
+                                                    ),
+                                                  ),
+                                                  ElevatedButton(
+                                                    style: ElevatedButton
+                                                        .styleFrom(
+                                                      shape:
+                                                          RoundedRectangleBorder(
+                                                        borderRadius:
+                                                            BorderRadius
+                                                                .circular(20),
+                                                      ),
+                                                      primary:
+                                                          Colors.deepPurple,
+                                                      fixedSize:
+                                                          const Size.fromWidth(
+                                                              100),
+                                                      padding:
+                                                          const EdgeInsets.all(
+                                                              10),
+                                                    ),
+                                                    onPressed: () {
+                                                      Navigator.push(
+                                                          context,
+                                                          MaterialPageRoute(
+                                                              builder: (context) =>
+                                                                  (AllBooksScreen())));
+                                                    },
+                                                    child: const Text(
+                                                      "Find book",
+                                                      style: TextStyle(
+                                                          color: Colors.white),
                                                     ),
                                                   ),
                                                 ])
