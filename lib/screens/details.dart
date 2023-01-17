@@ -312,6 +312,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                                 .deepPurple)),
                                                   ),
                                                   Container(
+                                                    
                                                     margin:
                                                         const EdgeInsets.only(
                                                       left: kDefaultPadding,
@@ -322,24 +323,36 @@ class _DetailsPageState extends State<DetailsPage> {
                                                     width: 200,
                                                     height: 200,
                                                     decoration: BoxDecoration(
-                                                      image: const DecorationImage(
-                                                          image: AssetImage(
-                                                              "assets/book_pics/img_3.png"),
-                                                          fit: BoxFit.cover,
-                                                          opacity: 0.6),
                                                       borderRadius:
                                                           BorderRadius.circular(
                                                               10),
                                                     ),
-                                                    child: Center(
-                                                        child: Text(widget.price1,
-                                                            style: const TextStyle(
-                                                                fontSize: 20,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .bold,
-                                                                color: Colors
-                                                                    .white))),
+                                                    child: Row(
+                                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                                      children: [
+                                                      Column(
+                                                        children: [
+                                                          Text("Store Name: " + widget.price1,
+                                                              style: const TextStyle(
+                                                                  fontSize: 20,
+                                                                  fontWeight:
+                                                                  FontWeight
+                                                                      .bold,
+                                                                  color: Colors
+                                                                      .black)),
+                                                          Text("Price: " + widget.price1,
+                                                              style: const TextStyle(
+                                                                  fontSize: 20,
+                                                                  fontWeight:
+                                                                  FontWeight
+                                                                      .bold,
+                                                                  color: Colors
+                                                                      .black))
+                                                        ],
+                                                      )
+                                                      ],
+                                                    ),
+
                                                   )
                                                 ])
                                               ]),
