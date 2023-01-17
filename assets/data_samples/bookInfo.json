@@ -22,7 +22,10 @@
           "price": "15.99"
         }
       ],
-      "price1": "17.99"
+      "price1": "17.99",
+      "price2": "15.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "2",
@@ -50,7 +53,11 @@
           "stocks": "3",
           "price": "15.99"
         }
-      ]
+      ],
+      "price1":  "20.00",
+      "price2": "22.00",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "3",
@@ -78,7 +85,11 @@
           "stocks": "80",
           "price": "15.99"
         }
-      ]
+      ],
+      "price1":  "19.99",
+      "price2": "26.00",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "4",
@@ -99,9 +110,13 @@
         {
           "bookStoreName": "Karpa",
           "stocks": "14",
-          "price": "9.99"
+          "price": "19.99"
         }
-      ]
+      ],
+      "price1":  "19.99",
+      "price2":"19.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "5",
@@ -129,7 +144,11 @@
           "stocks": "13",
           "price": "15.99"
         }
-      ]
+      ],
+      "price1":  "24.99",
+      "price2":"26.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "6",
@@ -152,7 +171,11 @@
           "stocks": "12",
           "price": "4.95"
         }
-      ]
+      ],
+      "price1":  "7.95",
+      "price2":"4.95",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "7",
@@ -175,7 +198,11 @@
           "stocks": "31",
           "price": "23.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "8",
@@ -203,7 +230,11 @@
           "stocks": "12",
           "price": "15.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "9",
@@ -226,7 +257,11 @@
           "stocks": "53",
           "price": "17.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "10",
@@ -254,7 +289,11 @@
           "stocks": "9",
           "price": "14.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "11",
@@ -282,7 +321,11 @@
           "stocks": "2",
           "price": "14.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "12",
@@ -305,7 +348,11 @@
           "stocks": "6",
           "price": "27.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "13",
@@ -333,7 +380,11 @@
           "stocks": "15",
           "price": "14.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "14",
@@ -361,7 +412,11 @@
           "stocks": "21",
           "price": "14.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "15",
@@ -384,7 +439,11 @@
           "stocks": "25",
           "price": "18.00"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "16",
@@ -407,7 +466,11 @@
           "stocks": "16",
           "price": "22.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "17",
@@ -430,7 +493,11 @@
           "stocks": "21",
           "price": "25.50 "
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "18",
@@ -453,7 +520,11 @@
           "stocks": "16",
           "price": "15.00"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "19",
@@ -481,7 +552,11 @@
           "stocks": "9",
           "price": "14.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "20",
@@ -504,7 +579,11 @@
           "stocks": "6",
           "price": "16.49"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "21",
@@ -527,7 +606,11 @@
           "stocks": "2",
           "price": "14.95"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "22",
@@ -550,7 +633,11 @@
           "stocks": "12",
           "price": "19.95"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "23",
@@ -573,7 +660,11 @@
           "stocks": "2",
           "price": "24.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "24",
@@ -596,7 +687,11 @@
           "stocks": "11",
           "price": "12.00"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "25",
@@ -619,7 +714,11 @@
           "stocks": "12",
           "price": "24.30"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "26",
@@ -642,7 +741,11 @@
           "stocks": "5",
           "price": "11.00"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "27",
@@ -665,7 +768,11 @@
           "stocks": "4",
           "price": "13.90"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "28",
@@ -688,7 +795,11 @@
           "stocks": "12",
           "price": "17.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "29",
@@ -711,7 +822,11 @@
           "stocks": "23",
           "price": "16.00"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "30",
@@ -734,7 +849,11 @@
           "stocks": "12",
           "price": "14.50 "
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "31",
@@ -757,7 +876,11 @@
           "stocks": "14",
           "price": "16.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "32",
@@ -780,7 +903,11 @@
           "stocks": "15",
           "price": "15.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "33",
@@ -803,7 +930,11 @@
           "stocks": "15",
           "price": "9.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "34",
@@ -826,7 +957,11 @@
           "stocks": "12",
           "price": "7.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "35",
@@ -849,7 +984,11 @@
           "stocks": "15",
           "price": "13.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "36",
@@ -877,7 +1016,11 @@
           "stocks": "1",
           "price": "14.50"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "37",
@@ -915,7 +1058,11 @@
           "stocks": "5",
           "price": "14.50"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "38",
@@ -948,7 +1095,11 @@
           "stocks": "12",
           "price": "14.50"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "39",
@@ -976,7 +1127,11 @@
           "stocks": "17",
           "price": "14.50"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "40",
@@ -1004,7 +1159,11 @@
           "stocks": "5",
           "price": "25.00"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "41",
@@ -1032,7 +1191,11 @@
           "stocks": "9",
           "price": "35.00"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "42",
@@ -1060,7 +1223,11 @@
           "stocks": "12",
           "price": "40.00"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     },
     {
       "bookId": "43",
@@ -1083,7 +1250,11 @@
           "stocks": "19",
           "price": "29.99"
         }
-      ]
+      ],
+      "price1":  "14.99",
+      "price2":"23.99",
+      "store1": "İşler",
+      "store2": "İnsancıl"
     }
   ]
 }

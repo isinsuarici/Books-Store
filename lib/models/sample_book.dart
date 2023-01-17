@@ -12,6 +12,9 @@ class BookInfo {
   String bookRank;
   List<BookStores> bookStores;
   String price1;
+  String price2;
+  String store1;
+  String store2;
 
   BookInfo({this.bookId = '',
     this.bookImage = '',
@@ -24,6 +27,9 @@ class BookInfo {
     this.bookRank = '',
     this.bookStores = const[],
     this.price1='',
+    this.price2='',
+    this.store1='',
+    this.store2='',
   });
 
   factory BookInfo.fromJson(Map<String, dynamic> json) {
@@ -47,6 +53,9 @@ class BookInfo {
       bookRank: json['bookRank'] ?? '',
       bookStores: bookStores,
       price1:json['price1'] ?? '',
+      price2:json['price2'] ?? '',
+      store1:json['store1'] ?? '',
+      store2:json['store2'] ?? '',
 
     );
   }
