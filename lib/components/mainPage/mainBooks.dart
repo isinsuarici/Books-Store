@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../../constants.dart';
 import '../../models/sample_book.dart';
+import '../../screens/details.dart';
 
 class AllBooks extends StatelessWidget {
   final BookInfo book;
@@ -12,6 +14,15 @@ class AllBooks extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return GestureDetector(
+      onTap: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context)=> DetailsPage(bookCategory: book.bookCategory,
+          heroTag: book.bookImage,
+          bookName: book.bookName,
+          bookAuthor: book.bookAuthor,
+          bookPageNumber: book.bookPageNumber,
+          bookPublishedYear: book.bookPublishedYear,
+          bookSummary: book.bookSummary,)));
+      },
       //onTap: press(),
       child: Container(
         margin: const EdgeInsets.only(
