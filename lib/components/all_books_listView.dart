@@ -41,6 +41,7 @@ class Books extends StatelessWidget {
             onTap: () {
               Navigator.of(context).push(MaterialPageRoute(
                   builder: (context) => DetailsPage(
+                    bookCategory: book.bookCategory,
                       heroTag: book.bookImage,
                       bookName: book.bookName,
                       bookAuthor: book.bookAuthor,

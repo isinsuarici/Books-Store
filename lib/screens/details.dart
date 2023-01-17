@@ -8,6 +8,7 @@ class DetailsPage extends StatefulWidget {
   final bookPublishedYear;
   final bookPageNumber;
   final bookSummary;
+  final bookCategory;
 
   DetailsPage(
       {this.heroTag,
@@ -15,13 +16,15 @@ class DetailsPage extends StatefulWidget {
       this.bookAuthor,
       this.bookPublishedYear,
       this.bookPageNumber,
-      this.bookSummary});
+      this.bookSummary,
+      this.bookCategory});
 
   @override
   _DetailsPageState createState() => _DetailsPageState();
 }
 
 class _DetailsPageState extends State<DetailsPage> {
+ var text="";
   var selectedCard = 'WEIGHT';
 
   @override
@@ -33,7 +36,7 @@ class _DetailsPageState extends State<DetailsPage> {
             onPressed: () {
               Navigator.of(context).pop();
             },
-            icon: Icon(Icons.arrow_back_ios),
+            icon: const Icon(Icons.arrow_back_ios),
             color: Colors.white,
           ),
           backgroundColor: Colors.transparent,
@@ -119,7 +122,8 @@ class _DetailsPageState extends State<DetailsPage> {
                                                   Center(
                                                     child: Container(
                                                       padding:
-                                                          const EdgeInsets.only(bottom: 10),
+                                                          const EdgeInsets.only(
+                                                              bottom: 10),
                                                       child: ConstrainedBox(
                                                         constraints:
                                                             const BoxConstraints(
@@ -134,13 +138,36 @@ class _DetailsPageState extends State<DetailsPage> {
                                                                 fontFamily:
                                                                     'Montserrat',
                                                                 fontSize: 25.0,
-                                                                fontWeight: FontWeight.w900,
-                                                                letterSpacing: 1.6,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w900,
+                                                                letterSpacing:
+                                                                    1.6,
                                                                 color: Colors
                                                                     .black)),
                                                       ),
                                                     ),
                                                   )
+                                                ],
+                                              ),
+                                              const SizedBox(
+                                                height: 10,
+                                              ),
+                                              Row(
+                                                children: [
+                                                  SizedBox(
+                                                      width:
+                                                          150, // <-- match_parent
+                                                      child: ElevatedButton(
+                                                        onPressed: () {},
+                                                        style: ElevatedButton
+                                                            .styleFrom(
+                                                          shape:
+                                                              const StadiumBorder(),
+                                                        ),
+                                                        child: Text(widget
+                                                            .bookCategory),
+                                                      ))
                                                 ],
                                               ),
                                               const SizedBox(
@@ -155,8 +182,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           fontSize: 18.0,
                                                           fontWeight:
                                                               FontWeight.bold,
-                                                          color: Colors
-                                                              .black)),
+                                                          color: Colors.black)),
                                                   Text(widget.bookAuthor,
                                                       style: const TextStyle(
                                                           fontFamily:
@@ -177,8 +203,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           fontSize: 18.0,
                                                           fontWeight:
                                                               FontWeight.bold,
-                                                          color: Colors
-                                                              .black)),
+                                                          color: Colors.black)),
                                                   Text(widget.bookPublishedYear,
                                                       style: const TextStyle(
                                                           fontFamily:
@@ -199,8 +224,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           fontSize: 18.0,
                                                           fontWeight:
                                                               FontWeight.bold,
-                                                          color: Colors
-                                                              .black)),
+                                                          color: Colors.black)),
                                                   Text(widget.bookPageNumber,
                                                       style: const TextStyle(
                                                           fontFamily:
@@ -226,8 +250,8 @@ class _DetailsPageState extends State<DetailsPage> {
                                                             fontSize: 20.0,
                                                             fontWeight:
                                                                 FontWeight.bold,
-                                                            color: Colors
-                                                                .black)),
+                                                            color:
+                                                                Colors.black)),
                                                   ),
                                                   Container(
                                                     padding:
@@ -243,7 +267,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                       ),
                                                       child: Text(
                                                           widget.bookSummary,
-                                                          style: TextStyle(
+                                                          style: const TextStyle(
                                                               fontFamily:
                                                                   'Montserrat',
                                                               fontSize: 18.0,
