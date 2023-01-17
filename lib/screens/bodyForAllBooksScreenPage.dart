@@ -1,4 +1,6 @@
+import 'package:books_store/components/components.dart';
 import 'package:books_store/screens/allBooksScreenData.dart';
+import 'package:books_store/screens/basic_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +23,9 @@ class BodyForAllBooksScreenPage extends StatelessWidget {
               IconButton(
                 icon: const Icon(Icons.arrow_back_ios),
                 color: Colors.white,
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> BasicScreen()));
+                },
               ),
               SizedBox(
                   width: 125.0,

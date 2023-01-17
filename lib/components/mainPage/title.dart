@@ -4,14 +4,12 @@ import 'package:books_store/screens/all_books.dart';
 import 'package:flutter/material.dart';
 import '../../constants.dart';
 
-class TitleWithMoreButton extends StatelessWidget {
-  const TitleWithMoreButton({
+class TitleElement extends StatelessWidget {
+  const TitleElement({
     Key? key,
     required this.title,
-    required this.press,
   }) : super(key: key);
   final String title;
-  final Function press;
 
 
   @override
@@ -22,24 +20,6 @@ class TitleWithMoreButton extends StatelessWidget {
         children: <Widget>[
           TitleWithCustomUnderline(text: title),
           const Spacer(),
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(20),
-              ),
-              primary: title=="Categories" ? Colors.white:kPrimaryColor,
-              fixedSize: title=="Categories" ?Size.zero: Size.fromWidth(100),
-              padding:  EdgeInsets.all(10),
-            ),
-            onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context)=> AllBooksScreenPage()));
-            },
-
-            child:  Text(
-            title=="Categories" ?"":"More",
-              style: TextStyle(color: Colors.white),
-            ),
-          ),
         ],
       ),
     );
