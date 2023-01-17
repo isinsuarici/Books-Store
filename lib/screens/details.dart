@@ -64,7 +64,7 @@ class _DetailsPageState extends State<DetailsPage> {
             )),
             const SizedBox(
               child: Padding(
-                padding: EdgeInsets.only(bottom: 20),
+                padding: EdgeInsets.only(bottom: 10),
               ),
             ),
             Expanded(
@@ -102,7 +102,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                           topRight: Radius.circular(45.0),
                                         ),
                                         color: Colors.white),
-                                    height: MediaQuery.of(context).size.height,
+                                    height: MediaQuery.of(context).size.height-40,
                                     width: MediaQuery.of(context).size.width,
                                     child: Row(
                                       children: [
@@ -257,7 +257,6 @@ class _DetailsPageState extends State<DetailsPage> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: <Widget>[
                                     //      Icon(Icons.star),
-
                                     //          Text("Bottom Text")
                                   ],
                                 ),
