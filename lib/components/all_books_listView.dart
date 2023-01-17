@@ -47,6 +47,7 @@ class Books extends StatelessWidget {
                       bookAuthor: book.bookAuthor,
                   bookPageNumber: book.bookPageNumber,
                   bookPublishedYear: book.bookPublishedYear,
+                      price1: book.price1,
                       bookSummary: book.bookSummary,)));
             },
             child: Row(
