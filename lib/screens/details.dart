@@ -8,7 +8,13 @@ class DetailsPage extends StatefulWidget {
   final bookPageNumber;
   final bookSummary;
 
-  DetailsPage({this.heroTag, this.bookName, this.bookAuthor, this.bookPublishedYear, this.bookPageNumber, this.bookSummary});
+  DetailsPage(
+      {this.heroTag,
+      this.bookName,
+      this.bookAuthor,
+      this.bookPublishedYear,
+      this.bookPageNumber,
+      this.bookSummary});
 
   @override
   _DetailsPageState createState() => _DetailsPageState();
@@ -45,181 +51,228 @@ class _DetailsPageState extends State<DetailsPage> {
             )
           ],
         ),
-        body: ListView(children: [
-          Stack(children: [
-            Container(
-                height: MediaQuery.of(context).size.height - 82.0,
-                width: MediaQuery.of(context).size.width,
-                color: Colors.transparent
-
-            ),
+        body: Column(
+          children: <Widget>[
             Positioned(
-                top: 75.0,
                 child: Container(
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(45.0),
-                          topRight: Radius.circular(45.0),
-                        ),
-                        color: Colors.white),
-                    height: MediaQuery.of(context).size.height - 100.0,
-                    width: MediaQuery.of(context).size.width)),
-            Positioned(
-                top: 20.0,
-                left: (MediaQuery.of(context).size.width / 2) - 120.0,
-                child: Hero(
-                    tag: widget.heroTag,
-                    child: Container(
-                        decoration: BoxDecoration(
-                            image: DecorationImage(
-                                image: AssetImage(widget.heroTag),
-                                fit: BoxFit.fitHeight)),
-                        height: 250.0,
-                        width: 250.0))),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(45.0),
+                    topRight: Radius.circular(45.0),
+                  ),
+                  color: Colors.white),
+            )),
             const SizedBox(
               child: Padding(
-                padding: EdgeInsets.only(bottom: 50),
+                padding: EdgeInsets.only(bottom: 20),
               ),
             ),
-            Positioned(
-                top: 300.0,
-                left: 25.0,
-                right: 25.0,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text(widget.bookName,
-                        style: const TextStyle(
-                            fontFamily: 'Montserrat',
-                            fontSize: 22.0,
-                            fontWeight: FontWeight.bold)),
-                    const SizedBox(height: 10.0),
-                    Row(
-                      children: <Widget>[
-                        Text(widget.bookAuthor,
-                            style: const TextStyle(
-                                fontFamily: 'Montserrat',
-                                fontSize: 20.0,
-                                color: Colors.grey)),
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.only(top: 10),
+            Expanded(
+              child: Container(
+                color: Colors.deepPurple,
+                child: LayoutBuilder(
+                  builder: (context, constraint) {
+                    return SingleChildScrollView(
+                      child: ConstrainedBox(
+                        constraints:
+                            BoxConstraints(minHeight: constraint.maxHeight),
+                        child: IntrinsicHeight(
                           child: Column(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            crossAxisAlignment:CrossAxisAlignment.start,
                             children: [
-                              Row(
-                                children:  [
-                                  const Text("Published Year: ",
-                                      style: TextStyle(
-                                          fontFamily: 'Montserrat',
-                                          fontSize: 15,
-                                          color: Colors.black)),
-                                  Text(widget.bookPublishedYear,
-                                      style: const TextStyle(
-                                          fontFamily: 'Montserrat',
-                                          fontSize: 15,
-                                          color: Colors.grey)),
-                                ],
+                              Positioned(
+                                  child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Hero(
+                                    tag: widget.heroTag,
+                                    child: Container(
+                                        decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                                image:
+                                                    AssetImage(widget.heroTag),
+                                                fit: BoxFit.fitHeight)),
+                                        height: 300.0,
+                                        width: 300.0)),
+                              )),
+                              Positioned(
+                                  top: 85.0,
+                                  child: Container(
+                                    decoration: const BoxDecoration(
+                                        borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(45.0),
+                                          topRight: Radius.circular(45.0),
+                                        ),
+                                        color: Colors.white),
+                                    height: MediaQuery.of(context).size.height,
+                                    width: MediaQuery.of(context).size.width,
+                                    child: Row(
+                                      children: [
+                                        Container(
+                                          padding: const EdgeInsets.only(
+                                              top: 40, left: 20),
+                                          child: Column(
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Row(
+                                                children: [
+                                                  const Text("Book Name: ",
+                                                      style: TextStyle(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          fontSize: 18.0,
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          color: Colors
+                                                              .deepPurple)),
+                                                  Text(widget.bookName,
+                                                      style: const TextStyle(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          fontSize: 20,
+                                                          color: Colors.black))
+                                                ],
+                                              ),
+                                              const SizedBox(
+                                                height: 10,
+                                              ),
+                                              Row(
+                                                children: [
+                                                  const Text("Author Name: ",
+                                                      style: TextStyle(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          fontSize: 18.0,
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          color: Colors
+                                                              .deepPurple)),
+                                                  Text(widget.bookAuthor,
+                                                      style: const TextStyle(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          fontSize: 20,
+                                                          color: Colors.black))
+                                                ],
+                                              ),
+                                              const SizedBox(
+                                                height: 10,
+                                              ),
+                                              Row(
+                                                children: [
+                                                  const Text("Published Year: ",
+                                                      style: TextStyle(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          fontSize: 18.0,
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          color: Colors
+                                                              .deepPurple)),
+                                                  Text(widget.bookPublishedYear,
+                                                      style: const TextStyle(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          fontSize: 20,
+                                                          color: Colors.black))
+                                                ],
+                                              ),
+                                              const SizedBox(
+                                                height: 10,
+                                              ),
+                                              Row(
+                                                children: [
+                                                  const Text("Page Number: ",
+                                                      style: TextStyle(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          fontSize: 18.0,
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          color: Colors
+                                                              .deepPurple)),
+                                                  Text(widget.bookPageNumber,
+                                                      style: const TextStyle(
+                                                          fontFamily:
+                                                              'Montserrat',
+                                                          fontSize: 20,
+                                                          color: Colors.black))
+                                                ],
+                                              ),
+                                              const SizedBox(
+                                                height: 10,
+                                              ),
+                                              Row(children: [
+                                                Column(children: [
+                                                  Container(
+                                                    padding:
+                                                        const EdgeInsets.only(
+                                                            top: 20, bottom: 8),
+                                                    child: const Text(
+                                                        "Abstract",
+                                                        style: TextStyle(
+                                                            fontFamily:
+                                                                'Montserrat',
+                                                            fontSize: 20.0,
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors
+                                                                .deepPurple)),
+                                                  ),
+                                                  Container(
+                                                    padding:
+                                                        const EdgeInsets.only(
+                                                            bottom: 50),
+                                                    child: ConstrainedBox(
+                                                      constraints:
+                                                          const BoxConstraints(
+                                                        minWidth: 300.0,
+                                                        maxWidth: 350.0,
+                                                        minHeight: 30.0,
+                                                        maxHeight: 800.0,
+                                                      ),
+                                                      child: Text(
+                                                          widget.bookSummary,
+                                                          style: TextStyle(
+                                                              fontFamily:
+                                                                  'Montserrat',
+                                                              fontSize: 18.0,
+                                                              color: Colors
+                                                                  .black)),
+                                                    ),
+                                                  ),
+                                                ])
+                                              ])
+                                            ],
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  )),
+                              Expanded(
+                                child: Container(),
                               ),
+                              Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: <Widget>[
+                                    //      Icon(Icons.star),
 
-                              Row(
-                                children:  [
-                                  const Text("Page Number: ",
-                                      style: TextStyle(
-                                          fontFamily: 'Montserrat',
-                                          fontSize: 15,
-                                          color: Colors.black)),
-                                  Text(widget.bookPageNumber,
-                                      style: const TextStyle(
-                                          fontFamily: 'Montserrat',
-                                          fontSize: 15,
-                                          color: Colors.grey)),
-                                ],
+                                    //          Text("Bottom Text")
+                                  ],
+                                ),
                               ),
                             ],
                           ),
-                        )
-                      ],
-                    ),
-
-                    Row(
-                      children: [
-                        Column(
-                          children: [
-                            Container(
-                              padding:
-                                  const EdgeInsets.only(top: 20, bottom: 8),
-                              child: const Text("Abstract",
-                                  style: TextStyle(
-                                      fontFamily: 'Montserrat',
-                                      fontSize: 20.0,
-                                      color: Colors.black)),
-                            ),
-                            Container(
-                              padding: const EdgeInsets.only(bottom: 50),
-                              child: ConstrainedBox(
-                                constraints: const BoxConstraints(
-                                  minWidth: 300.0,
-                                  maxWidth: 300.0,
-                                  minHeight: 30.0,
-                                  maxHeight: 800.0,
-                                ),
-                                child:  Text(
-                                  widget.bookSummary,
-                                    style: TextStyle(
-                                        fontFamily: 'Montserrat',
-                                        fontSize: 20.0,
-                                        color: Colors.grey)),
-                              ),
-                            ),
-                          ],
-                        )
-                      ],
-                    ),
-                    SizedBox(
-                        height: 150.0,
-                        child: ListView(
-                          scrollDirection: Axis.horizontal,
-                          children: <Widget>[
-                            _buildInfoCard('WEIGHT', '300', 'G'),
-                            const SizedBox(width: 10.0),
-                            _buildInfoCard('CALORIES', '267', 'CAL'),
-                            const SizedBox(width: 10.0),
-                            _buildInfoCard('VITAMINS', 'A, B6', 'VIT'),
-                            const SizedBox(width: 10.0),
-                            _buildInfoCard('AVAIL', 'NO', 'AV')
-                          ],
-                        )),
-                    const SizedBox(height: 20.0),
-                    /*
-                    Padding(
-                      padding: const EdgeInsets.only(bottom: 5.0),
-                      child: Container(
-                        decoration: const BoxDecoration(
-                            borderRadius: BorderRadius.only(
-                                topLeft: Radius.circular(10.0),
-                                topRight: Radius.circular(10.0),
-                                bottomLeft: Radius.circular(25.0),
-                                bottomRight: Radius.circular(25.0)),
-                            color: Colors.black),
-                        height: 50.0,
-                        child: const Center(
-                          child: Text('\$52.00',
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontFamily: 'Montserrat')),
                         ),
                       ),
-                    )
-                     */
-                  ],
-                ))
-          ])
-        ]));
+                    );
+                  },
+                ),
+              ),
+            )
+          ],
+        ));
   }
 
   Widget _buildInfoCard(String cardTitle, String info, String unit) {
