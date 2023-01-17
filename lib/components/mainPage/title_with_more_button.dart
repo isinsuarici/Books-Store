@@ -12,6 +12,8 @@ class TitleWithMoreButton extends StatelessWidget {
   }) : super(key: key);
   final String title;
   final Function press;
+
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -25,16 +27,16 @@ class TitleWithMoreButton extends StatelessWidget {
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20),
               ),
-              primary: kPrimaryColor,
-              fixedSize: const Size.fromWidth(100),
-              padding: const EdgeInsets.all(10),
+              primary: title=="Categories" ? Colors.white:kPrimaryColor,
+              fixedSize: title=="Categories" ?Size.zero: Size.fromWidth(100),
+              padding:  EdgeInsets.all(10),
             ),
             onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context)=> AllBooksScreenPage()));
             },
 
-            child: const Text(
-              "More",
+            child:  Text(
+            title=="Categories" ?"":"More",
               style: TextStyle(color: Colors.white),
             ),
           ),
@@ -42,6 +44,7 @@ class TitleWithMoreButton extends StatelessWidget {
       ),
     );
   }
+
 }
 
 class TitleWithCustomUnderline extends StatelessWidget {
