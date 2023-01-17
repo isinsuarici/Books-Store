@@ -39,8 +39,8 @@ class BodyForDetailsPage extends StatelessWidget {
                     ),
                   ),
                   child: Column(
-                    children: <Widget>[
-                      const ColorAndSize(),
+                    children: const <Widget>[
+                      ColorAndSize(),
                       SizedBox(),
                     ],
                   ),

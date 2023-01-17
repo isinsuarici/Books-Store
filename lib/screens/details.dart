@@ -1,4 +1,4 @@
-import 'package:books_store/screens/allBooks_screen.dart';
+
 import 'package:flutter/material.dart';
 
 class DetailsPage extends StatefulWidget {
@@ -273,39 +273,14 @@ class _DetailsPageState extends State<DetailsPage> {
                                                                   .black)),
                                                     ),
                                                   ),
-                                                  ElevatedButton(
-                                                    style: ElevatedButton
-                                                        .styleFrom(
-                                                      shape:
-                                                          RoundedRectangleBorder(
-                                                        borderRadius:
-                                                            BorderRadius
-                                                                .circular(20),
-                                                      ),
-                                                      primary:
-                                                          Colors.deepPurple,
-                                                      fixedSize:
-                                                          const Size.fromWidth(
-                                                              100),
-                                                      padding:
-                                                          const EdgeInsets.all(
-                                                              10),
-                                                    ),
-                                                    onPressed: () {
-                                                      Navigator.push(
-                                                          context,
-                                                          MaterialPageRoute(
-                                                              builder: (context) =>
-                                                                  (AllBooksScreen())));
-                                                    },
-                                                    child: const Text(
-                                                      "Find book",
-                                                      style: TextStyle(
-                                                          color: Colors.white),
-                                                    ),
-                                                  ),
                                                 ])
-                                              ])
+                                              ]),
+                                              const SizedBox(height:10),
+                                              Row(
+                                                children: const [
+                                                  // dükkanlar buraya gelicek
+                                                ]
+                                              ),
                                             ],
                                           ),
                                         )
@@ -319,7 +294,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                 alignment: Alignment.bottomCenter,
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
-                                  children: <Widget>[
+                                  children: const <Widget>[
                                     //      Icon(Icons.star),
                                     //          Text("Bottom Text")
                                   ],

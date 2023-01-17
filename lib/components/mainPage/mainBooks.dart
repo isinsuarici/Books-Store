@@ -51,7 +51,7 @@ class AllBooksCard extends StatelessWidget {
         width: 300,
         child: ListView.separated(
           scrollDirection: Axis.horizontal,
-          itemCount: books.length,
+          itemCount: 6,
           itemBuilder: (context, index) {
             final book = books[index];
             return AllBooks(book:book);

@@ -22,11 +22,11 @@ class Bodyy extends StatelessWidget {
           TitleWithMoreButton(title: "Best Sellers",press: (){}),
           BestSellersScreen(),
           TitleWithMoreButton(title: "Categories", press: (){}),
-          Categories(),
-          SizedBox(height: kDefaultPadding),
+          const Categories(),
+          const SizedBox(height: kDefaultPadding),
           TitleWithMoreButton(title: "All Books", press: (){}),
           AllBooksScreen(),
-          SizedBox(height: kDefaultPadding),
+          const SizedBox(height: kDefaultPadding),
 
 
         ],
