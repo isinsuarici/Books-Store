@@ -1,4 +1,4 @@
-
+import 'package:books_store/constants.dart';
 import 'package:flutter/material.dart';
 
 class DetailsPage extends StatefulWidget {
@@ -9,7 +9,7 @@ class DetailsPage extends StatefulWidget {
   final bookPageNumber;
   final bookSummary;
   final bookCategory;
-
+  final price1;
   DetailsPage(
       {this.heroTag,
       this.bookName,
@@ -17,14 +17,15 @@ class DetailsPage extends StatefulWidget {
       this.bookPublishedYear,
       this.bookPageNumber,
       this.bookSummary,
-      this.bookCategory});
+      this.bookCategory,
+      this.price1});
 
   @override
   _DetailsPageState createState() => _DetailsPageState();
 }
 
 class _DetailsPageState extends State<DetailsPage> {
- var text="";
+  var text = "";
   var selectedCard = 'WEIGHT';
 
   @override
@@ -106,7 +107,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                           topRight: Radius.circular(45.0),
                                         ),
                                         color: Colors.white),
-                                    height:800,
+                                    height: 1200,
                                     width: MediaQuery.of(context).size.width,
                                     child: Row(
                                       children: [
@@ -181,12 +182,28 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           fontWeight:
                                                               FontWeight.bold,
                                                           color: Colors.black)),
-                                                  Text(widget.bookAuthor,
-                                                      style: const TextStyle(
-                                                          fontFamily:
-                                                              'Montserrat',
-                                                          fontSize: 20,
-                                                          color: Colors.black))
+                                                  Container(
+                                                    padding:
+                                                        const EdgeInsets.only(
+                                                            top: 10),
+                                                    child: ConstrainedBox(
+                                                      constraints:
+                                                          const BoxConstraints(
+                                                        minWidth: 100.0,
+                                                        maxWidth: 250.0,
+                                                        minHeight: 30.0,
+                                                        maxHeight: 1000.0,
+                                                      ),
+                                                      child: Text(
+                                                          widget.bookAuthor,
+                                                          style: const TextStyle(
+                                                              fontFamily:
+                                                                  'Montserrat',
+                                                              fontSize: 20.0,
+                                                              color: Colors
+                                                                  .black)),
+                                                    ),
+                                                  ),
                                                 ],
                                               ),
                                               const SizedBox(
@@ -275,12 +292,57 @@ class _DetailsPageState extends State<DetailsPage> {
                                                   ),
                                                 ])
                                               ]),
-                                              const SizedBox(height:10),
-                                              Row(
-                                                children: const [
-                                                  // dükkanlar buraya gelicek
-                                                ]
-                                              ),
+                                              const SizedBox(height: 10),
+                                              Row(children: [
+                                                Column(children: [
+                                                  Container(
+                                                    padding:
+                                                        const EdgeInsets.only(
+                                                            top: 20,
+                                                            bottom: 8,
+                                                            left: 30),
+                                                    child: const Text("Stores",
+                                                        style: TextStyle(
+                                                            fontFamily:
+                                                                'Montserrat',
+                                                            fontSize: 20.0,
+                                                            fontWeight:
+                                                                FontWeight.bold,
+                                                            color: Colors
+                                                                .deepPurple)),
+                                                  ),
+                                                  Container(
+                                                    margin:
+                                                        const EdgeInsets.only(
+                                                      left: kDefaultPadding,
+                                                      top: kDefaultPadding / 2,
+                                                      bottom:
+                                                          kDefaultPadding / 2,
+                                                    ),
+                                                    width: 200,
+                                                    height: 200,
+                                                    decoration: BoxDecoration(
+                                                      image: const DecorationImage(
+                                                          image: AssetImage(
+                                                              "assets/book_pics/img_3.png"),
+                                                          fit: BoxFit.cover,
+                                                          opacity: 0.6),
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              10),
+                                                    ),
+                                                    child: Center(
+                                                        child: Text(widget.price1,
+                                                            style: const TextStyle(
+                                                                fontSize: 20,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .bold,
+                                                                color: Colors
+                                                                    .white))),
+                                                  )
+                                                ])
+                                              ]),
                                             ],
                                           ),
                                         )
