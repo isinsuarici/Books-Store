@@ -20,7 +20,7 @@ On the main screen of our application, there are pages that welcome our users an
 
 This is the page that shows most of the core functions for our app. App consists of 3 main parts except bar and footer. These are all books, best sellers and categories. For the best seller section, we filter the data we pulled from our json file and show the books with a rate score of 5. You can see the details of the books by clicking images. For the all books section, we show some of the data we pulled from our json file. By clicking the more button on the side, a page opens where we can access the list of all books. We can see the categories of all the books available in the categories section and reach the books according to the categories. 
 
-## All Books
+## All Books Page
 ![image](https://user-images.githubusercontent.com/44557162/213014044-bd09f859-d091-49c5-b3cc-8d0fae66ec25.png)
 
 In this section, users can see the picture, author and name of the book for each of the available books. They can also see the details of the books by clicking on them.
